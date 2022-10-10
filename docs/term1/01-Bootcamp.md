@@ -19,3 +19,5 @@ I believe through this journey of the MDEF program, I will gather the skills and
 Listening to everyone introduce themselves, their work background, what they feel inspired by was a really nice experience. It was great getting a sneak peak into their lives.
 
 The next day I had the opportunity to sit down with my peers and have a one-on-one session with them. The main objective of this was to understand our own skills, knowledge and attitute on a personal & professional level as well as theirs. In order to collaborate with others, one needs to understand what they have to offer and how you can combine yours with them to create a solution and become better change-makers for the future.
+
+![](../Users/seherkrishna/Documents/Github/mdef4/docs/images/current_future.jpg)
