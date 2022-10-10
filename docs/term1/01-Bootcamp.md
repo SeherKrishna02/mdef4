@@ -7,7 +7,7 @@ hide:
 
 WHAT'S YOUR FIGHT?
 
-![myfight](images/MyFight.jpg)
+![myfight](../images/MyFight.jpg)
 
 
 I’ve spent the last few weeks exploring the culture, streets and cuisine that Barcelona has to offer. After one such day near Sarada Familia, I found myself in a small gelato shop called Madre. A box on the counter caught my attention with print colours and fun patterns. I was intrigued to pick up. I was surprised to realise it was made out of some sort of sustainable material, as one wouldn’t normally buy a tub of ice-cream in a paper box. At the end of the day, I realised that the reason I found this so surprising was because as country like India, we package everything in plastic.
