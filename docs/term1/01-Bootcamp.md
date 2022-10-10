@@ -20,6 +20,8 @@ Listening to everyone introduce themselves, their work background, what they fee
 
 
 
+
+
 ![](../images/Poblenou.jpg)
 
 The visit around Poblenou was extremely insightful. We started the visit with Poblenou Urban District. A company that collaborates and maps out Poblenou to connect companies, collectives and creatives with each-other. We visited Bicilot, whose main focus is to spread the benefit of bicycles for a city, community. They also have a repair workshop where the focus is to learn how to fix your cycle to increase the life of a bicyle. We saw a couple of models of bicyles - used for transport of people, materials etc. Next on the agenda was a guided walk towards Superilla, a couple of residential blocks. The parking space around this area was reclaimed and converted into a public space where people can sit and relax, surrounded by offices, schools, and even a museum!
