@@ -1,6 +1,6 @@
 # **About**
 
-![](../Users/seherkrishna/Documents/Github/mdef4/docs/images/Profilepic.jpg)
+![](../images/Profilepic.jpg)
 
 Hello there!
 
