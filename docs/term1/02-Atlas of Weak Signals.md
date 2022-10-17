@@ -17,6 +17,6 @@ The week began with a fun exercise with the atlas of weak signal toolkit. I deci
 I have worked on projects around sustainable practices for a community in the past - how to integrate a composting system and community garden into a neighbourhood setting to implement better practices. I had drafted a business plan to tie local cafés into this ecosystem but due to covid this wasn’t put into action.
 
 
-![](../images/designspace1.jpg)
+![](../images/designspace2.jpg)
 
 My weak signal cards were Inter-species Collaboration and Imagining New Jobs, with areas of opportunity like - Supply Chain Innovation, Maker Education and Co-creation. I felt the cards worked well. Future trends talk about collaboration and having diversity and inclusivity. My cards fall into this area collectively. They are extremely inter-connected. Materials for the future talk about biomaterials and converting waste into products that can be utilised in our daily life. I'm extremely excited to be entering a space like this, and design for the possible future.
