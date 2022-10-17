@@ -10,4 +10,6 @@ I have a B.Des(Communication Design) from Kingston University, London after stud
 
 print('  _________\n /         \\\n |  /\\ /\\  |\n |    -    |\n |  \\___/  |\n \\_________/');
 
+<span>&#9786;</span>
+
 **[Emergent Futures](https://emergent-futures.mn.co/feed)**
