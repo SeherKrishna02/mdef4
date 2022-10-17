@@ -3,10 +3,9 @@ hide:
     - toc
 ---
 
-# Atlas of Weak Signals
+# **Atlas of Weak Signals**
 
 
-**Atlas of weak signals**
 
 ![](../images/AOWS.png)
 

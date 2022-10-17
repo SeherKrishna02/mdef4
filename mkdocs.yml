@@ -43,8 +43,8 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: blue
-    accent: pink
+    primary: black
+    accent: blue
   font:
     # See available fonts at https://fonts.google.com/
     text: Space Mono

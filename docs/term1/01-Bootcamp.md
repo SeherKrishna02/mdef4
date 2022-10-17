@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# Bootcamp
+# **Bootcamp**
 
 WHAT'S YOUR FIGHT?
 
