@@ -5,7 +5,7 @@ hide:
 
 # **Bootcamp**
 
-WHAT'S YOUR FIGHT?
+BIO ZERO
 
 ![biobio](../images/biobio.jpeg)
 
