@@ -7,5 +7,5 @@ hide:
 
 BIO ZERO
 
-![biobio](/images/biobio.jpeg)
-![photoalbum](/https://www.photos.app.goo.gl/WVAJayWgEZaUc3rT6)
+![](../images/biobio.jpeg)
+![](../https://www.photos.app.goo.gl/WVAJayWgEZaUc3rT6)
