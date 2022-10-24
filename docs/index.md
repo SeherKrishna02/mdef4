@@ -1,5 +1,5 @@
 ## Welcome
 
-![](/Users/seherkrishna/Documents/Github/mdef4/docs/images/class.jpeg)
+![](../images/class.jpg)
 
 <i>Class of 2022-23</i>
