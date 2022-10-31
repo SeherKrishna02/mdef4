@@ -10,4 +10,4 @@ hide:
 
 ![](../images/Evolution.pdf)
 
-![](../images/mat.jpeg)
+![](images/mat.jpeg)
