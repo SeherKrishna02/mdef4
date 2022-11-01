@@ -26,13 +26,14 @@ hide:
     text-decoration: none;
     color: #ffffff;
     background-color: #7aa8b7;
-    border-radius: 6px;
+    border-radius: 10px;
     outline: none;
   }
 </style>
 </head>
 <body>
-<a class="button" href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">HTML button tag</a>
+<a class="button" href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">Science For Food</a>
+<a class="button" href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario">Agriculture Biomaterial Industry Report</a>
 </body>
 
 <a href="https://seherkrishna02.github.io/files/Scienceforfood.pdf">Article Review</a>
