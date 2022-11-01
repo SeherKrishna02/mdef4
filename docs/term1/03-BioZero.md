@@ -14,7 +14,7 @@ hide:
 
 **Scientific Review**
 
-<a href="seherkrishna02.github.io/files/Scienceforfood.pdf" target="_blank">Article Link</a>
+<a href="seherkrishna02.github.io//Users/seherkrishna/Documents/Github/mdef4/docs/files/Scienceforfood.pdf" target="_blank">Article Link</a>
 
 I have selected to review an article from EMBO reports for this
 assignment. The article titled ‘Science for food’ talks about how
