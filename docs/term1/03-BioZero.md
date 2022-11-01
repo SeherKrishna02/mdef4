@@ -14,12 +14,7 @@ hide:
 
 **Scientific Review**
 
-Article link - <a href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128"></a>
-Other - <a href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario"></a>
-
-<h1>Article Link</h1>
-    <iframe src="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">
-    </iframe>
+<a href="seherkrishna02.github.io/files/Scienceforfood.pdf" target="_blank">Article Link</a>
 
 I have selected to review an article from EMBO reports for this
 assignment. The article titled ‘Science for food’ talks about how
@@ -34,7 +29,8 @@ molecular techniques and food chemistry. Heston Blumenthal is a
 known for his scientific approach towards cooking. Food
 preparation is going to be influenced and adapt to meet future
 requirements through the influence of chemistry and biological
-modifications. The elephant in the room is still going to be, how
+modifications.
+The elephant in the room is still going to be, how
 this can become mainstream and reach the masses. Enzymes like
 ‘transglutaminase’ is used by professional chefs to bind different
 meats together and achieve creative food challenges. While people
@@ -58,7 +54,8 @@ cheese effect to pour over a burger or maybe a bowl of pasta. Food
 producers and especially wine makers are looking for news methods
 to infuse scientific reactions to tackle climate change, resource
 depletion, water conservation, reduced soil health, infestation of
-invasive species. Researchers are looking towards genetically
+invasive species.
+Researchers are looking towards genetically
 tinkering with micro-organisms to adapt them to meet our demands
 daily but to quote Howard Wolinsky that “...it is the application of
 science in agriculture that will enable farmers to feed a world
@@ -72,8 +69,8 @@ combined with new-age technology to work towards a circular
 economy. A new world where the the creation of by-products are put
 back into the system and utilised to feed into another process.
 This in turn will help fight problems of climate change, resource
-depletion and infestation of invasive species. A paper on Research
-Gate titled, Development of an Agricultural Biomaterial Industry
+depletion and infestation of invasive species.
+A paper on Research Gate titled, Development of an Agricultural Biomaterial Industry
 in Ontario by Aung Oo, Nafis Muntasir, Kenneth Poon, Alfons
 Weersink, and Mahendra Thimmanagari talks about food and
 agricultural in terms of a biomaterial resource for an economy.
