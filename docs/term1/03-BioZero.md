@@ -36,8 +36,6 @@ hide:
 <a class="button" href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario">Agriculture Biomaterial Industry Report</a>
 </body>
 
-<a href="https://seherkrishna02.github.io/files/Scienceforfood.pdf">Article Review</a>
-
 I have selected to review an article from EMBO reports for this
 assignment. The article titled ‘Science for food’ talks about how
 molecular biology contributes to the production and preparation of
