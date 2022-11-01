@@ -14,9 +14,7 @@ hide:
 
 **Scientific Review**
 
-<a href="seherkrishna02.github.io//Users/seherkrishna/Documents/Github/mdef4/docs/files/Scienceforfood.pdf" target="_blank">Article Link</a>
 
- <button type="submit" formaction="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">Article Review</button>
 
  <style>
   .button {
@@ -32,7 +30,10 @@ hide:
 </style>
 </head>
 <body>
+Main Article &rarr
 <a class="button" href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">Science For Food</a>
+<br>
+Other &rarr
 <a class="button" href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario">Agriculture Biomaterial Industry Report</a>
 </body>
 
