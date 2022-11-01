@@ -30,10 +30,12 @@ hide:
 </style>
 </head>
 <body>
-Main Article &rarr
+Main Article &#8594;
 <a class="button" href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">Science For Food</a>
 <br>
-Other &rarr
+<br>
+<br>
+Other &#8594;
 <a class="button" href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario">Agriculture Biomaterial Industry Report</a>
 </body>
 
