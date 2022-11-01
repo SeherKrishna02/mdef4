@@ -35,7 +35,7 @@ Main Article &#8594;
 <br>
 <br>
 <br>
-Other &#8594;
+Other &#8628;
 <a class="button" href="https://www.researchgate.net/publication/319112175_Development_of_an_Agricultural_Biomaterial_Industry_in_Ontario">Agriculture Biomaterial Industry Report</a>
 </body>
 
