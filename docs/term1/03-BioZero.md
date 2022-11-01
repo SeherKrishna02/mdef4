@@ -35,6 +35,8 @@ hide:
 <a class="button" href="https://www.embopress.org/doi/epdf/10.15252/embr.201540128">HTML button tag</a>
 </body>
 
+<a href="https://seherkrishna02.github.io/files/Scienceforfood.pdf">Article Review</a>
+
 I have selected to review an article from EMBO reports for this
 assignment. The article titled ‘Science for food’ talks about how
 molecular biology contributes to the production and preparation of
