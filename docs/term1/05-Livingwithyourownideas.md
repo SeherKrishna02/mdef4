@@ -7,8 +7,10 @@ hide:
 
 
 
-
-<iframe width="100%" height="100%" src="https://drive.google.com/file/d/1628-xkdyi-OqO_Snj1zFZSF7IKl5VlD-/preview?autoplay=1"></iframe>
+<video width="320" height="240" controls>
+<source src="https://drive.google.com/file/d/1628-xkdyi-OqO_Snj1zFZSF7IKl5VlD-/preview?autoplay=1" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 
 
