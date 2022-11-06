@@ -7,7 +7,7 @@ hide:
 
 
 <video width="1280" height="720" controls autoplay muted loop>
-<source src="https://drive.google.com/file/d/1628-xkdyi-OqO_Snj1zFZSF7IKl5VlD-/view?usp=share_link" type="video/mp4">
+<source src="<iframe src="https://drive.google.com/file/d/1628-xkdyi-OqO_Snj1zFZSF7IKl5VlD-/preview" width="640" height="480" allow="autoplay"></iframe>" type="video/mp4">
  Your browser does not support the video tag.
 </video>
 
