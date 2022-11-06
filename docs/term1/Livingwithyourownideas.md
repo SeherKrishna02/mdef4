@@ -11,7 +11,7 @@ hide:
  Your browser does not support the video tag.
 </video>
 
-![(../images/DinDin-01.png)]
-![(../images/DinDin-02.png)]
-![(../images/DinDin-03.png)]
-![(../images/DinDin-04.png)]
+![](../images/DinDin-01.png)
+![](../images/DinDin-02.png)
+![](../images/DinDin-03.png)
+![](../images/DinDin-04.png)
