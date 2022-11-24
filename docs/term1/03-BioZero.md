@@ -109,3 +109,6 @@ production lines. We should look towards other nations that are
 developing new materials and collaborate and share methodologies
 on moving towards a highly efficient and self-sufficient way in
 growing and consuming food.
+
+![](../images/method.jpg)
+![](../images/identify.jpg)
