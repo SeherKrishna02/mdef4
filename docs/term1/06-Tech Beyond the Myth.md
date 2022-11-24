@@ -9,6 +9,8 @@ hide:
 <h3>Unpacking Intelligent Machines</h3>
 <h3>An introduction to physical computing by hacking everyday objects</h3>
 
+![](../images/techmyth.jpg)
+
 ![](../images/Tech01.jpg)
 ![](../images/Tech02.jpg)
 
