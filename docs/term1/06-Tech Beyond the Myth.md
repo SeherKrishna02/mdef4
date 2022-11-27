@@ -26,3 +26,5 @@ hide:
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFSOM00dx4&#x2F;view?utm_content=DAFSOM00dx4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">BUBBLE MAKER</a> Open in New Tab
+
+<iframe src="https://drive.google.com/file/d/1P7UgAP8n79RO4PPG3IvjOdn25TaRQLOt/preview" width="640" height="480" allow="autoplay"></iframe>
