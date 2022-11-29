@@ -28,4 +28,10 @@ hide:
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFSOM00dx4&#x2F;view?utm_content=DAFSOM00dx4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">BUBBLE MAKER</a> Open in New Tab
 
 
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1P7UgAP8n79RO4PPG3IvjOdn25TaRQLOt/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Seher_Cooking_Habits.mp4"></iframe></div><script src="https://drive.google.com/file/d/1P7UgAP8n79RO4PPG3IvjOdn25TaRQLOt/preview"></script>
+
+
+<iframe src="https://drive.google.com/file/d/1P7UgAP8n79RO4PPG3IvjOdn25TaRQLOt/preview" ></iframe>
+
+<!--aloow full screen add tag -->
+
+<iframe allowfullscreen="allowfullscreen" src="your_page_url/preview" ></iframe>
