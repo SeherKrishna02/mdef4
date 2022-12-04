@@ -28,10 +28,4 @@ hide:
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFSOM00dx4&#x2F;view?utm_content=DAFSOM00dx4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">BUBBLE MAKER</a> Open in New Tab
 
 
-
-
-<iframe src="https://www.youtube.com/watch?v=yP4Ky6ruQYY" ></iframe>
-
-<!--aloow full screen add tag -->
-
-<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=yP4Ky6ruQYY/preview" ></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yP4Ky6ruQYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
