@@ -34,4 +34,4 @@ hide:
 
 <!--aloow full screen add tag -->
 
-<iframe allowfullscreen="allowfullscreen" src="your_page_url/preview" ></iframe>
+<iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/watch?v=yP4Ky6ruQYY/preview" ></iframe>
