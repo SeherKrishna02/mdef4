@@ -16,7 +16,7 @@ Intervention 01
 
 <video width="500px" height="500px"
         controls="controls"/>
-        
-      <source src="community02.mp4"
+
+      <source src="../files/community02.mp4"
           type="video/mp4">
   </video>
