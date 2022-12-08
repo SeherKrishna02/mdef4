@@ -14,4 +14,6 @@ hide:
 
 Intervention 01
 
-<iframe width="560" height="315" src="https://drive.google.com/file/d/11mLA0YBxgvJ8WnziIrt8mr3fEbadN3as/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="../files/community02.mp4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="community02.mp4"></iframe></div><script src="../files/community02.mp4"></script>
+
+![](../files/community02.mp4)
