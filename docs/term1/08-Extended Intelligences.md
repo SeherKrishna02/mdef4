@@ -34,3 +34,29 @@ hide:
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFUQsaPo_0&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
+
+![](../images/intelligence.webp)
+
+We discussed the foundational understanding of AI(tools and ethics of it) and machine learning. We explored how one can construct applications to challenge these. Intelligence can be classified under some main categories like-
+a. Cultural Intelligence (storytelling & community)
+b. Emotional Intelligence
+c. Other
+
+![](../images/plato.jpg)
+
+SYMBOL: innate responses eg. a snake (a cat will interpret a cucumber as a snake)
+
+GOAL ORIENTED vs. JUST EXPERIENTIAL
+
+Intelligence: Specific functioning, symbol processing, information integration, motor complex skills & languages, etc.
+
+<h3><i>How do you define intelligence?</i></h3>
+
+SYMBOL GROUNDING PROBLEM (semiotics)
+<i>how something is - how something connects or corresponds to it.</i>
+
+![](../images/brain.jpg)
+![](../images/thinking.jpg)
+![](../images/input.jpg)
+
+Rational agent - will always choose the options by looking at the information it has, and the state it is in with its intelligence and choose which it can reach the goal faster.
