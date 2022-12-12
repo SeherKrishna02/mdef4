@@ -46,6 +46,8 @@ SYMBOL GROUNDING PROBLEM (semiotics)
 
 Rational agent - will always choose the options by looking at the information it has, and the state it is in with its intelligence and choose which it can reach the goal faster.
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP-R60lM=/?moveToViewport=-1920,-1610,3373,2766&embedId=89964868079" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
