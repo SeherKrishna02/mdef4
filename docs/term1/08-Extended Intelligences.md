@@ -49,7 +49,21 @@ Rational agent - will always choose the options by looking at the information it
 ![](../images/Agent.jpg)
 ![](../images/Learning.jpg)
 
-<h2><b>"There is nothing as subjective as data".</b></h2><h5>How you measure, what you measure is a decision.</h5>
+<h2><b>"There is nothing as subjective as data".</b><h5>How you measure, what you measure is a decision.</h2>
+
+Cluster - measure of similarity b/w objects
+Similarity - closer to which side?
+Centroid - center of a cluster
+
+![](../images/prediction.jpg)
+![](../images/criss-cross.jpg)
+![](../images/decide.jpg)
+![](../images/training.jpg)
+
+
+
+Compulsive Intelligence - AI
+Confidence Threshold - at what % is it sure of a label. Eg. 80% person | 5% cat
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP-R60lM=/?moveToViewport=-1920,-1610,3373,2766&embedId=89964868079" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
