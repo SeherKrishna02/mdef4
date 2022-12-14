@@ -83,3 +83,11 @@ Confidence Threshold - at what % is it sure of a label. Eg. 80% person | 5% cat
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFUQsaPo_0&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
+
+I felt as though this module would go over my head but the first few sessions around the theories helped me begin to understand these complex things from the ground-up. Everything was explained really well along with websites and artwork samples which were useful as at times the class felt quite intense. I really enjoyed how creative we got with selecting topics to work with for the AI neural net exercise. It felt very out-of-the-box and we just ran with this idea, and it paid off. We used this opportunity to mock certain companies that tries to sell gimmicky ideas at times. We really stepped into these shoes while making our whole presentation. I really enjoyed looking at all the different ways AI can be used, especially for art installations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GG4GwxpXCXs?start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b6NwnW5zZsA?start=109" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Can AI tell us more than that which meets the eye? What if we could map more complex behaviours and interests concepts from a cultural perspective? That go beyond what it can see through images and hear (cause it's always listening). Can AI feel and taste? 
