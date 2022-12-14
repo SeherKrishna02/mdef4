@@ -46,6 +46,11 @@ SYMBOL GROUNDING PROBLEM (semiotics)
 
 Rational agent - will always choose the options by looking at the information it has, and the state it is in with its intelligence and choose which it can reach the goal faster.
 
+![](../images/Agent.jpg)
+![](../images/Learning.jpg)
+
+<h2><b>"There is nothing as subjective as data".</b></h2><h5>How you measure, what you measure is a decision.</h5>
+
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVP-R60lM=/?moveToViewport=-1920,-1610,3373,2766&embedId=89964868079" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
