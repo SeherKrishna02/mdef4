@@ -36,3 +36,6 @@ Our last stop was at Colectivo Bajel, a workshop with artists and designers. It 
 The next day I had the opportunity to sit down with my peers and have a one-on-one session with them. The main objective of this was to understand our own skills, knowledge and attitute on a personal & professional level as well as theirs. In order to collaborate with others, one needs to understand what they have to offer and how you can combine yours with them to create a solution and become better change-makers for the future.
 
 ![](../images/current_future.jpg)
+
+WHAT'S YOUR FIGHT? (updated)
+![](../images/MyFight(updated).png)
