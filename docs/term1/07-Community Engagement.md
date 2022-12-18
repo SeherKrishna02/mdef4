@@ -39,7 +39,7 @@ hide:
 
 <i>Having only explored creating bioplastics during the short Bio & Agri zero module, I had very little prior knowledge in this area. I felt quite lost as to where to begin, but luckily I had already started collecting my avocado seeds. By seeing what kind of textures other people had achieved using a variety of materials at Materfad, within my group of friends in MDEF ; I was keen to go for it.
 
-![](..images/machine.png)
+![](..images/machine1.png)
 I had quite a few problems trying to crush the avocado pits in the FabLab but in the process I learnt how to open up the big machine and clean it.
 ![](../images/blender.png)
 I prototyped a cover for the hand-blender in the BioLab to eventually get around the issue.
