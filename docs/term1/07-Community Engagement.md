@@ -45,6 +45,9 @@ I had quite a few problems trying to crush the avocado pits in the FabLab but in
 I prototyped a cover for the hand-blender in the BioLab to eventually get around the issue.
 I began the process with following the steps of the recipes I had found online but the variables involved were crazy. My first day of exploration, I placed the materials in the dehydrator to dry but they cracked. The obvious reason was because my recipe largely consisted of H2O. I began feeling a bit more confident after I made a material that seemed to hold its shape. But as the days passed, the material continued to shrink! I decided to experiment with the ratios and all the different materials I had used in the past recipes and create my own. It turned out quite nice as it was the most colourful, multi-textural and I found that I used the most avocado pit material in this one. It was great working along side by group in the BioLab as even though we were doing our own materials, we were very involved in the process of each-others. So I got more out of the exploration experience. I think I would like to work further on materials from kitchen waste but towards creating materials that are more thin, involve older techniques of making materials (less equipment and technology).</i>
 
+<h3>Intervention 02</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P8AuKcdIr2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 <h3>Other</h3>
 
