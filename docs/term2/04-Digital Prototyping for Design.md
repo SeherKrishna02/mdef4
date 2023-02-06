@@ -728,3 +728,16 @@ blockquote {
 </p><p id="822a950e-cb11-4d31-9c3f-9c8026ca743e" class="">
 </p><p id="7cf5c299-f751-4d57-99bb-14e0da581885" class="">
 </p></div></article></body></html>
+
+
+
+<p id="a5b93410-07d2-4e79-8c05-1349ff6c2f12" class=""><mark class="highlight-blue_background">Learnings of DAY02</mark></p><p id="d491c89e-adbd-4466-8a55-84ca084a50f6" class=""><mark class="highlight-blue_background"><em>buzzer / piezo speakertone(), noTone() functions</em></mark></p><p id="2e7c7a9b-dfcf-4025-b5e1-9185a7c82eff" class="">We were introduced to a wide range of AI tools for 3d rendering and model making. I have used Adobe dimension and SketchUp in the past for making 3d Models. I have only ever made static 3d models so i'm excited to learn how to animate them using other tools. I have animations on Flash and Adobe Animate before. We were given a task to make music on the Esp32 board and I really wanted to get the super mario tune on it. I found a couple of examples for it on the net but the code was rather complicated for me to understand. I tried using them a couple times but failed. A classmate of mine even asked ChatGPT to give the code for music. I felt it would be more useful for me to try something simple but understand the code completely so here is my very sad attempt at making music. A lot of the examples online were for the Arduino Uno board, maybe because it is an older board.. I think I will get one of those to try out as well.</p><p id="77c45388-4d9c-4c29-bbbe-14599caef51d" class="">
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFZyr5DDtM&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFZyr5DDtM&#x2F;watch?utm_content=DAFZyr5DDtM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Arduino music</a>
