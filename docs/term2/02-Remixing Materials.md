@@ -4,6 +4,7 @@ hide:
 
 # **Remixing Materials**
 
+https://www.notion.so/Remixing-Materials-a88246a8517c4c9db8a5f4a98a11862a
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPOih84U=/?moveToViewport=-9590,-2921,1426,1331&embedId=223340324312" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
@@ -16,7 +17,7 @@ hide:
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFY4n1iYUU&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFY4n1iYUU&#x2F;view?utm_content=DAFY4n1iYUU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">material Narrative</a> by Seher Krishna
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFY4n1iYUU&#x2F;view?utm_content=DAFY4n1iYUU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Material Narrative</a>
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
