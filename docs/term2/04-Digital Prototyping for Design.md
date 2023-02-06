@@ -698,11 +698,19 @@ blockquote {
 </p><p id="709bfc7a-e40c-4636-bd83-8c1651f94429" class="">Mesh - collection of vertices, edges and faces.</p><p id="c73747c2-f9a9-4af9-92b0-2c9e39ddee1a" class="">You need a good GPU</p><p id="c9764a5d-f98b-43ab-ba69-756ccd2c2499" class="">Triangular, Quadrilateral, Hexagonal mesh types</p><p id="ef17ae27-299f-4a61-9c5a-bba418b70304" class="">3D scanner is always a mesh file format because it look for these mesh point.</p><p id="17cb169f-ab5c-424a-aa6d-0502cc3f3547" class="">
 </p><p id="9391f474-c026-4d95-a463-f6298ebf7c05" class="">You can sketch a model in NURBS and when you need to manufacture it then you translate it to a MESH format.</p><p id="5ecbd836-5eca-4305-b258-9d293ce3b5a9" class="">
 </p><p id="d1d7cd2f-fc54-4291-832b-059fbd653e27" class="">MAP A texture</p><p id="6125d7d8-30b9-4593-914a-62a6a6909ca2" class="">.obj file format for a texture.</p><p id="f934054d-2f40-4e94-b6df-00062ee7c201" class="">3D sculpting</p><p id="1a7499c4-025c-4626-a360-2ce57d6c54b9" class="">
+
+
 ![](../images/croissant.png)
+
+
 </p><p id="871e600f-0394-48ad-88db-0f4af44628db" class=""><strong>Parametric design</strong> is a process based on algorithmic thinking that allows the expression of parameters and rules that together define, codify and clarify the relationship between design intent and design response.</p><p id="31efadbc-1ed2-4e08-953a-9aa2506dd14a" class="">Coding modelling ^</p><p id="ee20969a-1538-4010-9b0b-efe7c9c3362e" class="">
 </p><p id="dffc76a5-1823-41b8-94f5-3d854f66753b" class="">Idea - Login - Design</p><p id="b944fe2f-2b65-45c8-ac77-870973dfa16f" class="">
 </p><p id="40c2b1b1-1880-4c8f-9d56-8dcee523ad74" class="">x,y,z,r,h - Five variables you define and can change for parametric modelling.</p><p id="fcfc9780-86e1-43eb-8e06-cbe2e6cabc90" class="">
+
+
 ![](../images/holocaust.jpg)
+
+
 <p id="5abbb3ee-3fe5-4213-9c93-a5dc8752a531" class="">Array - x spacing and y spacing</p><p id="808d28b3-1855-4820-a482-c81de675eca3" class="">array of 5 lines with specific dimension</p><p id="b469f3e7-bf04-4f03-a743-e7a869f4ab0f" class="">at each array you place a cube with x,y dimension.</p></div></div><p id="53dab517-609a-4334-bbb1-b1dc24f769dc" class="">
 </p><p id="065f96f7-3376-444e-9f7a-8f0251531cbc" class="">Topological Optimisation - mathematical method that optimises material layout within a given design space, for a given set of loads, boundary conditions and constraints with the goal of maximising the performance of the system. </p><p id="58f98ec3-a1de-4e72-a204-90b0ccb61be0" class="">
 </p><p id="f3d8b309-0e7d-4fe6-9cfe-ff1073a16a6b" class="">FEM (<em>finite element modeling)</em></p><ul id="9c66ca77-01d6-4d60-9c8f-91673a1174d3" class="bulleted-list"><li style="list-style-type:disc">FEM is an approximation method that subdivides a complex problem space, or <em>domain</em>
