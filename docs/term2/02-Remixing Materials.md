@@ -4,7 +4,7 @@ hide:
 
 # **Remixing Materials**
 
-![](../files/Remix.html)
+https://www.notion.so/Remixing-Materials-a88246a8517c4c9db8a5f4a98a11862a
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPOih84U=/?moveToViewport=-9590,-2921,1426,1331&embedId=223340324312" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
