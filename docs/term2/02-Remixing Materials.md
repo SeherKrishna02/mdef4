@@ -5,7 +5,7 @@ hide:
 # **Remixing Materials**
 
 
- <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPOih84U=/?moveToViewport=-9791,-2972,1921,1099&embedId=948812870007" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPOih84U=/?moveToViewport=-9590,-2921,1426,1331&embedId=223340324312" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ![](../files/Remix in context_TheEasterns.pdf)
 
