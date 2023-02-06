@@ -1,0 +1,729 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Remixing Materials</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="a88246a8-517c-4c9d-b8a5-f4a98a11862a" class="page mono"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/woodcuts_sekka_2.jpg" style="object-position:center 80%"/><h1 class="page-title">Remixing Materials</h1></header><div class="page-body"><p id="3898f822-8029-4943-823c-5f09e2eea4e1" class=""><strong>DAY 01</strong></p><figure id="ae472164-8f1d-4194-be08-33a985d5068e"><a href="https://lara-campos.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Lara Campos | bio.materiality</div></div><div class="bookmark-href">https://lara-campos.com/</div></div></a></figure><p id="71e58063-77a6-4c19-a664-c0d6ce645f12" class="">work with artisans and materials around us instead of ones from a catalog.</p><p id="f526b189-3baa-42e3-b8e5-65c9cb137767" class="">valuing the culture &amp; territory - identity of a territory when you talk about sustainability.</p><p id="f3730784-db8c-4413-97e0-23bdff4f9f59" class="">more involved in the life-cycle of what material you are using.</p><p id="ea3ce0a7-c33a-495c-947e-edc648cd94cc" class="">taking each resource/ item with value by itself, classification and process each material differently.</p><p id="eea646ae-fdbc-4397-ad03-1ecb0757498b" class="">
+</p><p id="fdaeaeb9-0e88-411d-ac7d-b5f7541e179a" class=""><strong>almacén</strong> - pantry of residues (waste)</p><p id="dc3b0d62-06c5-496a-aacc-2710d8a4e13b" class="">
+</p><p id="68ec43b7-707a-4fb2-8d19-8577123b372b" class="">*dry all the materials before creating a bio-material.</p><p id="18d50876-18c2-4be8-a595-9fae87c649a0" class="">*contact with water, start degrading.</p><p id="5e84ba1e-cf56-4319-a25b-0182d6506af2" class="">eggshell - calcium carbonate, super strong and abundant resource.</p><p id="62f0bcb6-60d6-47ef-bb6a-521665b0ca0a" class="">corn starch / tapioca starch</p><p id="a20ae6a0-9a17-48fe-b8bc-77408ac3bef9" class="">ceramic appearance.</p><p id="e69a37a0-7a8d-454a-bf7e-aba941be5f8e" class="">
+</p><p id="904dcd3d-7c7e-4a18-a784-3068f7f91dcb" class="">pine resin - water resistant, anti-bacterial</p><figure id="ed0a5790-d502-4aa8-8f8f-6ee1fd103aed" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled.png"><img style="width:1000px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled.png"/></a></figure><p id="c250331d-01ef-4551-b996-f0d638367393" class="">
+</p><p id="a9a65633-bc11-4653-8036-ae1f07a1d910" class=""><strong>testing materials</strong> - durability, resistant, strength, friction, bio-degradability, water-resistance, etc.</p><p id="564d0898-ed07-403c-bf2c-fcd23e799ec9" class="">
+</p><p id="baebecce-ce86-4133-9e02-8e6f0652f840" class="">activated charcoal - powder, </p><p id="c353b2c8-7cbd-458a-8fde-229394c94096" class="">
+</p><p id="fd986c1e-3c3b-48c3-b44a-59f0b68e5a7c" class="">eggshells - wash, dry, dehydrate, powder</p><p id="cac1d24b-c9de-46f3-b35c-5cc1fd291bf5" class="">
+</p><p id="7aa41c70-3d1e-48c7-8b4d-f833fe17230f" class="">
+</p><p id="3dfe3ea0-e550-4ccf-8cf6-5039d4ccc4b8" class="">symbiosis with algae - textile project</p><figure id="eb752f7d-6ca3-45c8-ae13-040ae9a42241"><a href="https://slowandsustain.org/the-future-wardrobe-project/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">THE FUTURE WARDROBE PROJECT</div><div class="bookmark-description">Digi-Zine FASHION: GLOBAL NOMADS From Biomaterials to Wearables Made at Home A complete look from the FUTURE WARDROBE PROJECT: A waterproof cape made from kelp bioplastics and dyed with spirulina blue. Photographed by Catherine Euale in Barcelona, Spain. (2021) THE FUTURE WARDROBE PROJECTBARCELONAConversations with Jessica &amp; CWWritten by CW Nolen Originally from Venezuela, Catherine Euale...</div></div><div class="bookmark-href"><img src="https://i0.wp.com/slowandsustain.org/wp-content/uploads/2021/11/cropped-artboard-1402x-1.png?fit=192%2C192&amp;ssl=1" class="icon bookmark-icon"/>https://slowandsustain.org/the-future-wardrobe-project/</div></div><img src="https://i0.wp.com/slowandsustain.org/wp-content/uploads/2021/02/ss-winter_spring-21_wip_02.07.21_f49.jpg?fit=1200%2C776&amp;ssl=1" class="bookmark-image"/></a></figure><figure id="863f1000-476f-4034-a0ba-1ca08865f2ba"><a href="https://www.instagram.com/future.wardrobe.project/?hl=en" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href">https://www.instagram.com/future.wardrobe.project/?hl=en</div></div></a></figure><p id="fc17bd09-9ad4-4362-9d9b-963dc761c482" class="">
+</p><figure id="f9417e83-39be-4c2b-be40-212654d8cc42"><div class="source"><a href="https://vimeo.com/643035879">https://vimeo.com/643035879</a></div></figure><p id="c2103065-04a9-46fb-9b07-4f0145f8376f" class="">
+</p><p id="ab4bc526-2488-4309-b7a7-29719a7fcd2a" class="">S-Biotica - <strong>statement of purpose</strong> - transformation of materials and the way we interact with them, appreciate their unique narratives, rhythms and cycles.</p><p id="41a74b99-26d3-472b-bac6-20003968bed4" class="">
+</p><figure id="d597ee40-ac02-4f20-8379-7bbbe4385c58"><a href="https://sites.google.com/view/living-textile-collective/about?pli=1" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Living Textile Collective - About</div><div class="bookmark-description">We are an international collective of designers and scholars who want to engage more consciously and curiously with the living world around us. We are doing so by striving to integrate multi-species perspectives into our work as designers, artists, researchers, and bio-enthusiasts, rethinking</div></div><div class="bookmark-href"><img src="https://lh5.googleusercontent.com/bVLU4HptY5W1z6UdDScrOu24PSGD2gDoLaDP_SWhQkg-p4CsTQyHJJK4-20MhKrlHgRLWIjcVlpn80q4WpUziTtMbD0syFHAEzCxzhUClJZBISAaUwhoziQLdENMWafJAF1-aUwhrToM0ma7VbX1yylxmkcDq-8Ndz4P" class="icon bookmark-icon"/>https://sites.google.com/view/living-textile-collective/about?pli=1</div></div><img src="https://lh3.googleusercontent.com/lN-r3bjVjrbb6llva8oq0_RA35-PXuwDX_s-3FY6GI2sEGMMOLKh6RJhDYvZjA0DPQLldX3po1jZM4AyK5ktIV7GOXrqdlqqhLzlj10_G3qtCmv9C6trOLQN_Y4MVJje-7ol4-Gv7Q=w16383" class="bookmark-image"/></a></figure><figure id="0a7882dd-838c-4f35-b7d4-ed0f45f6e267"><a href="https://fablabbcn.org/projects/siscode-remix-el-barrio" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">SISCODE - Remix el Barrio</div><div class="bookmark-description">Remix El Barrio was created in the neighbourhood barrio of Poblenou, Barcelona in January 2019. Poblenou is one of 73 barrios of Barcelona, known for its creativity. This set the ground for the pilot to foster social transformation and test new sustainable practices based on crafting with food waste.</div></div><div class="bookmark-href">https://fablabbcn.org/projects/siscode-remix-el-barrio</div></div><img src="https://fablabbcn.org/wp-content/uploads/2020/10/RemixElBarrio_09_060220.jpg" class="bookmark-image"/></a></figure><p id="136ab5cf-1ea5-4dc3-a806-79a182a6a6e0" class="">
+</p><p id="8c92e1e6-e000-40c3-8e13-a72f6f88a6ce" class=""><strong>areas of interaction</strong> - workshops for schools, neighbourhood</p><p id="640ca761-93e4-4ca1-80e3-0cf21bf8d4a2" class="">
+</p><p id="fe0e780c-6006-45dc-a2a2-3ae24c18d2cf" class="">almacén de residuos - community garden, space for social interaction, all age-groups (workshops). </p><figure id="82e593b0-58de-41df-988f-92c5a2e0d512" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/IMG_5291.jpeg"><img style="width:2268px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/IMG_5291.jpeg"/></a></figure><p id="57820b8a-c6d3-41bb-b30f-6f72620e375a" class="">
+</p><p id="6ad33eec-3a4d-445f-9c8f-14c961102825" class="">Anthropocene geology - when you are bothered by what you are degrading only when they bother you. eg, micro plastics in the ocean only because they are in the seafood you are eating.</p><p id="e027b00a-7510-4edc-8116-54c2c424850c" class="">
+</p><p id="04d8465f-a65a-4d26-aaef-cf65bc1b7a4e" class="">trinities - sand vitrification - nuclear explosion in 1945 - caused this mineral because of the high temperature of the explosion.</p><p id="2f24e23f-1343-4a6b-888a-9a342a55a66e" class="">
+</p><p id="1d15f6ec-db2c-4d94-a51d-2edc38b04140" class="">plastiglomerates, hawaii, time cresswell</p><p id="1f605095-759f-4db6-b5a3-96ef59c1091a" class="">plastics, stones and sand, etc.</p><p id="82c9f60b-fa06-49e5-8de0-9f7719a7e8ff" class="">
+</p><p id="9ed6f55c-840b-41d7-a76a-b18e96c19296" class="">nature _____ culture ______ materials (triangle)</p><p id="46db2de3-e2a2-4bb5-a12d-d6098f96ae2d" class="">
+</p><p id="c632f770-7ca0-4eff-8b0f-4c442f03d06b" class="">hunter gatherers - tools for hunting and gathering - stone, bone, wood, wild plants</p><p id="9830dd6e-b0bc-41a0-b9b6-3c5dddbf1e70" class="">agrarians - materials that can be in a physical place - mud brick, Egypt - (less complex)</p><p id="aa413ed2-c331-4a19-b1c1-7e58402744ca" class="">agrarians - develop techniques - then they started building tools and products - pottery, weaving, basketry, dyeing, baking, carpentry.</p><p id="20c0989a-22d3-430f-827f-80dc3d0ea720" class="">improving skills - generate things (more complex)</p><p id="c6d34027-8b23-4346-86a1-5414ac33da0d" class="">
+</p><p id="98d0a4ab-a601-4fe5-a648-3bdbd2c86096" class=""><strong>Exploring and developing materials around them over the ages</strong></p><p id="b59e122a-7ba6-4de6-8b5c-28d91bda78d3" class="">metal - bronze - iron, glass - Middle Ages - renaissance (classifications of elements and systems of measurement), air &amp; light (hot-air balloon) - industrial age (from craft to more industrial practices) - post industrial (Bauhaus Curriculum, 1922)</p><p id="8403444a-eb25-421b-8418-1b21b024c602" class="">
+</p><figure id="58c5b105-6102-429c-bb04-fde819b8b0d8" class="image" style="text-align:left"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%201.png"><img style="width:580px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%201.png"/></a></figure><ul id="a7f11610-d36f-490a-b9b7-1536d6ffd7ab" class="bulleted-list"><li style="list-style-type:disc">material classification &amp; production processes</li></ul><ul id="53ae6e70-bb1d-42d3-b6af-0466821858fa" class="bulleted-list"><li style="list-style-type:disc">form depends on function</li></ul><ul id="a6f6631f-b50b-4009-add1-77930b2ed68d" class="bulleted-list"><li style="list-style-type:disc">how to design for manufacturing products</li></ul><ul id="956335a6-375f-46a6-b9c7-c92144242d72" class="bulleted-list"><li style="list-style-type:disc">material identity should remain</li></ul><p id="1fd3cd6f-51d9-49b9-a70c-7e70ab1b0456" class="">
+</p><p id="6bccb58f-f4de-4570-b260-b5be0baaa3a0" class="">Material Narratives - </p><figure id="2717bcb1-65e7-492d-ba40-2e7063647a4a"><div class="source"><a href="https://materialpathways.dk/wp-content/uploads/2020/11/MaterialPathways2020_A6.pdf">https://materialpathways.dk/wp-content/uploads/2020/11/MaterialPathways2020_A6.pdf</a></div></figure><p id="e8a9d315-9a40-4215-bfe8-899bd0508203" class="">
+</p><p id="83d491d8-b2ba-4701-bf1a-0bd4c31d7ccc" class="">(testing) - Technical - Functional - Emotional</p><p id="22ec5407-8f26-4bef-8589-298a08c1fa38" class=""><strong>synesthesia </strong>- perceptual phenomenon in which stimulation of one sensory or cognitive pathway leads to involuntary experiences in a second</p><p id="86a5741a-c9f4-4f9c-bbfc-9f1c9cdc0ad3" class="">
+</p><p id="ea5cf0ca-d630-4ea4-ae4c-1f6b33841576" class=""><em>Activity - Image with word connect</em></p><p id="c7989741-f739-40dd-9158-c2bdf7233fd2" class="">01 - rough, exposed, animals skin</p><p id="604aef14-a6d0-4a21-a540-5ef99c7dbd82" class="">02 - soft, stringy, complex, intricate, layered</p><p id="6cceecad-1cf1-4121-9c3d-41e1343433fc" class="">03 - slimey, wet, smooth</p><p id="33ac9292-db29-47c3-a04f-f771157b4e78" class="">wafer thin, layered, smooth, crisp</p><p id="d6a19f9e-2413-4163-8ee8-c647b36c3a8a" class="">paper thin, delicate</p><p id="08933d44-ded6-43b2-b1e2-a9366949a450" class="">smooth, absorbant</p><p id="1b9c274c-b95c-45b0-8b37-b8bb11cfefa0" class="">paint drops, disappear, blend, abstract</p><p id="7888bc96-8c50-4a02-8dee-170564f1e009" class="">textural, vivid, playful</p><p id="62526465-34ab-4192-bc87-6173d80e237a" class="">crumbly, drought, dehydrate, shades</p><p id="725d49f8-f643-42f4-90f8-76d56808b587" class="">mixed, smooth, </p><p id="5357c83b-3fc0-44f7-a014-7c44c38a20b3" class="">foldable, paper crushed</p><p id="73c7f57d-d2c7-4640-9587-bd83af05e6d4" class="">wet, slimey, gross</p><p id="3eb03396-ee93-4806-bfb5-ee8655c35ae9" class="">pineapple, origami, structural</p><p id="0b4f1465-be71-4dde-ae18-86409ca403aa" class="">textural, watercolour paper</p><p id="bcb90e60-0896-4d95-896d-671400f4bd90" class="">smooth, elegant</p><p id="b89869ce-bd1b-43fc-9f9f-0126a184448d" class="">delicate, fluffy</p><p id="65d1b914-cc34-4570-82c0-b11616ab107e" class="">rigid, dark</p><p id="39cde723-1e2c-4ddf-9ab1-e0cf39a1ac7c" class="">
+</p><p id="b66ece67-723b-4d0b-bf3b-b759bfc9130e" class=""><em> </em><strong><em>References</em></strong></p><figure id="258e9c77-ac7c-442b-9542-facb31111d9e"><a href="https://www.angeliquevandervalk.nl/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Studio Angelique van der Valk</div><div class="bookmark-description">Vegetable works</div></div><div class="bookmark-href"><img src="https://www.angeliquevandervalk.nl/wp-content/uploads/2019/07/cropped-angelique-van-der-valk-logo-plus-onderschrift-blauwgroen-beeld-en-tekst-192x192.jpg" class="icon bookmark-icon"/>https://www.angeliquevandervalk.nl/</div></div><img src="https://www.angeliquevandervalk.nl/wp-content/uploads/2019/11/PR-OR-DSC02068-detail.jpg" class="bookmark-image"/></a></figure><figure id="bb4b8e04-695d-4ff0-ae31-192fb904706f"><a href="https://www.caracaracollective.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Caracara Collective</div><div class="bookmark-description">Installations, products and experiments.</div></div><div class="bookmark-href"><img src="https://images.squarespace-cdn.com/content/v1/5bffdc94da02bc1482cf2af1/1553014878939-XSDJ9WHZ7IQA0DCE5RVY/favicon.ico?format=100w" class="icon bookmark-icon"/>https://www.caracaracollective.com/</div></div><img src="http://static1.squarespace.com/static/5bffdc94da02bc1482cf2af1/t/5e98202e7e01be32c0008bb5/1587028052214/5.jpg?format=1500w" class="bookmark-image"/></a></figure><figure id="8b4bdea2-b3da-44e0-a6b0-584aaf8f60c9"><a href="https://www.instagram.com/pontobiodesign/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href">https://www.instagram.com/pontobiodesign/</div></div></a></figure><figure id="4f20da9a-6b3d-4c97-a0a4-cb8104a0b9f4"><a href="https://studiosarmite.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Sarmite Polakova</div><div class="bookmark-description">A unique production method turns mixed-blend inferior textile fibres into a sturdy bio-composite for future garment making. The lightweight material can have marble-like patterns or hues accentuated by natural dyes. PineSkins is a versatile, leather-like material made of inner bark of pine trees, a by-product of the tree cutting industry.</div></div><div class="bookmark-href"><img src="https://images.squarespace-cdn.com/content/v1/5a5b2cab64b05fa5f3515773/1537479221172-BHRRS8CEO3XMK3SJIT6Q/favicon.ico?format=100w" class="icon bookmark-icon"/>https://studiosarmite.com/</div></div><img src="http://static1.squarespace.com/static/5a5b2cab64b05fa5f3515773/t/6316ff9f5c19ad63f2772a87/1662451615636/Logo2022+L-01.png?format=1500w" class="bookmark-image"/></a></figure><figure id="7b2445a6-0bf7-40c4-b031-2ca4fa157c41"><a href="https://www.gauravmkwali.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Gaurav MK Wali Design | Portfolio</div><div class="bookmark-description">Most of my works are experimental and about how objects can be perceived differently. Hi! I&#x27;m Gaurav, a designer from Jaipur currently pursuing my Bachelor&#x27;s from National Institute of Fashion Technology, Himachal, India.</div></div><div class="bookmark-href"><img src="https://static.parastorage.com/client/pfavico.ico" class="icon bookmark-icon"/>https://www.gauravmkwali.com/</div></div><img src="https://static.wixstatic.com/media/14d034_1ad67d489a864b4a9429cd0f5f96395c~mv2.jpg/v1/fill/w_980,h_550,q_90/14d034_1ad67d489a864b4a9429cd0f5f96395c~mv2.jpg" class="bookmark-image"/></a></figure><figure id="3bd7de16-d510-424e-8131-cfb74cce2c76"><a href="https://www.austejaplatukyte.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Biomaterials | Austeja Platukyte | Vilnius</div><div class="bookmark-description">austeja platukyte / materials and product design / portfolio / here you can see my latest materials research. furniture, product design and home objects</div></div><div class="bookmark-href"><img src="https://static.parastorage.com/client/pfavico.ico" class="icon bookmark-icon"/>https://www.austejaplatukyte.com/</div></div><img src="https://static.wixstatic.com/media/718e1b_02d7982404474e81a3c1965b89a3a0b1~mv2.jpg/v1/fill/w_483,h_362,q_90/718e1b_02d7982404474e81a3c1965b89a3a0b1~mv2.jpg" class="bookmark-image"/></a></figure><p id="40f4819f-d1d8-4f04-8f38-35c56613ed45" class="">
+</p><p id="dc00c031-d15f-43d6-b343-be47d68acd73" class="">material design —————&gt; </p><p id="4f3de719-f71c-455c-803a-aab247eb5765" class="">work with available resources</p><p id="91c6853c-fd36-4186-8395-f57dd5a98151" class="">satisfy needs’customize properties</p><p id="77bef688-850e-4e02-8df1-4925ab8d7f4a" class="">diverse applications</p><p id="3ab1a4bc-c5eb-4e53-8f8b-46d1fc42e391" class="">medium of expressions</p><p id="345ec458-5d9d-46fd-8c94-3d23733c7ec3" class="">showcase relationships to objects and environments (culture)</p><figure id="648d77eb-1b57-4a9c-b750-cad3b4c5c89d" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled.jpeg"><img style="width:1557px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled.jpeg"/></a></figure><p id="c81db810-022c-4cc9-9c05-17e841eff207" class="">
+</p><figure id="e5e82fe0-d2f8-4eb8-93d7-be2f381e05ea" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%201.jpeg"><img style="width:2565px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%201.jpeg"/></a></figure><figure id="72659d5a-e375-4f97-9918-240dde109c8c" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%202.jpeg"><img style="width:2704px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%202.jpeg"/></a></figure><p id="6f079ebf-ccdf-44f1-989a-cd9ba5ca79df" class="">
+</p><p id="939398b0-d7fd-4b6a-8668-fa18fe02d94b" class=""><strong>TO DO - Make a graphic of life-cycle of the material</strong></p><p id="b6d67d71-2dec-4fa8-bcf5-50d231baecfd" class="">
+</p><figure id="94523f4f-7862-4e22-82de-af2fcb7d506a" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%203.jpeg"><img style="width:3090px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%203.jpeg"/></a></figure><p id="0f6d3ea3-ae2f-4d46-9b27-60a38676b604" class="">
+</p><p id="be29072d-94a8-43c3-b1a1-7461e173fa1e" class=""><strong>renewable resources</strong></p><p id="d2373504-d4ca-49d7-82b3-7f444033d73a" class=""> starch</p><p id="adb0827f-ac0d-457e-a419-cd458ff0e625" class="">lignin, cellulose</p><p id="8bd471db-0fd2-48cb-87c4-a0d8941aacb1" class="">peels, pulp</p><p id="974f633c-c9cd-42d0-8daf-973b41c1bd7e" class="">
+</p><p id="b6b1dbdb-fa3b-47d1-8841-4b8d9f5cc4d7" class=""><strong>biopolymer</strong> - gelatine, corn starch, agar, alginate, pine resin, additives ( from flowers and food around us), powder pigments, mineral pigments (mica)</p><p id="88a05d8c-6b42-45d1-9784-7f2f5d7d38ee" class="">
+</p><ul id="0ae43b84-c58c-4bf6-a0fe-59eaae63cf40" class="bulleted-list"><li style="list-style-type:disc">how you obtain</li></ul><ul id="a434d890-3214-458a-91ef-c56cdefaf153" class="bulleted-list"><li style="list-style-type:disc">how you use it to make</li></ul><ul id="ad7dee40-1277-4391-9820-b74bf5f4ee26" class="bulleted-list"><li style="list-style-type:disc">how you consume or use it</li></ul><ul id="33aa082e-806f-4be7-a5e8-230a2807337b" class="bulleted-list"><li style="list-style-type:disc">how do you dispose it / where and why</li></ul><p id="96352c29-76d5-470f-8486-3912240c0acd" class="">
+</p><figure id="c2933b93-2364-415d-ba9d-ec5abaa9de25" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%204.jpeg"><img style="width:2691px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%204.jpeg"/></a></figure><p id="f617a693-3845-475b-815b-9a871169074d" class="">
+</p><p id="d2235b00-f06c-44b5-a68a-bed8b2f3c9b5" class=""><em>most biopolymers are soluble in water but resin is soluble in alcohol</em></p><p id="6932aef3-65e6-4a5d-88ef-14839ddbef68" class="">
+</p><p id="8de90bd0-dc2e-445c-84e2-c6cbf317df09" class="">gastronomy, textile industry</p><p id="f22dc06f-9358-4e86-8b74-3b598a057b9b" class="">
+</p><p id="2f02b833-a0b0-4adb-9171-370299452ed7" class="">flat surfaces - frames</p><p id="986b8785-8dbc-4ebf-b480-843d1e71ce67" class="">extrusion</p><p id="b6b79c65-5997-4073-b5d6-1847eae3c91a" class="">syringe</p><p id="4554bdca-6948-4076-91f6-b09434daa56f" class="">
+</p><p id="6db57b47-8011-4c76-9ea7-4eb9e9c6c0a5" class=""><em>Platanus Occidentalis - </em>Platanus occidentalis, also known as American sycamore, American planetree, western plane, occidental plane, buttonwood, and water beech</p><figure id="19099622-c8f2-4120-8ed9-2160e6cb10aa" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%205.jpeg"><img style="width:3024px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%205.jpeg"/></a></figure><p id="a4cf703a-1bd1-4b86-a6cf-05ef794ad302" class="">
+</p><p id="ddb17e7e-71dc-4898-b092-111b893fee86" class="">recipe 3 &amp; recipe 4 - 18th jan - Caglar, Ahmed &amp; I</p><p id="f3092dce-ef53-4326-a947-adfed9c15f9b" class="">
+</p><p id="1a863f92-030e-4066-8cb7-38b2fed92a14" class="">Growing mycelium</p><figure id="b2a57f95-7824-467a-99f7-7ab4b101b000"><div class="source"><a href="https://www.youtube.com/watch?v=Pm1FgFFzQd4">https://www.youtube.com/watch?v=Pm1FgFFzQd4</a></div></figure><p id="c850f5a8-e66d-4550-a3d1-8cdbc36dde80" class="">
+</p><p id="42f46b1c-c644-4ab1-bae3-51867a01dfd0" class=""><strong>DAY 02</strong></p><p id="9a23b25d-e57f-4f2e-aae6-372b2b55b399" class="">Laura Freixas</p><figure id="b98a81ab-3ef9-4e2c-8179-5e6e1263e714"><a href="https://www.elisava.net/es/research/lineas/future-woods-earth-mars" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Future Woods. Earth &amp; Mars</div><div class="bookmark-description">Future Woods. Earth &amp; Mars es una exposición comisariada por un equipo de investigadores de Elisava Research con los alumnos del Máster in Design through New Materials de Elisava, junto con Materfad el centro de materiales de Barcelona.</div></div><div class="bookmark-href"><img src="https://www.elisava.net/themes/elisava/favicon.ico" class="icon bookmark-icon"/>https://www.elisava.net/es/research/lineas/future-woods-earth-mars</div></div><img src="https://www.elisava.net/sites/default/files/styles/opengraph/public/2021-11/future-woods-02_1.jpg?itok=0HiobrTw" class="bookmark-image"/></a></figure><p id="5cf4f963-8b6e-4bdb-ae92-874ed936dc80" class="">Scout and collect sample and showcase them as an experience to others.</p><p id="51bb6ac9-1bd0-4736-9abc-6baedfe98114" class="">
+</p><p id="98c7707f-6e33-40bc-8448-5bafd3cbfd13" class=""><strong>MaDe</strong> : Cardboard Marble</p><figure id="6600c064-32d7-411b-af12-2a410685bdcf"><a href="https://www.elisava.net/en/research/project/made-material-designers" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">MaDe - Material Designers</div><div class="bookmark-description">Partners: Creative Europe Programme of the European Union Elisava Politecnico di Milano Ma-tt-er. + Team: Laura Clèries PhD; Marta González PhD; Pere Llorach, PhD. MaDe (Material Designers) a project co-funded by the Creative Europe Programme of The European Union aims at boosting talents towards circular economies across Europe through partnering of design and cultural institutions.</div></div><div class="bookmark-href"><img src="https://www.elisava.net/themes/elisava/favicon.ico" class="icon bookmark-icon"/>https://www.elisava.net/en/research/project/made-material-designers</div></div><img src="https://www.elisava.net/sites/default/files/styles/opengraph/public/2021-10/DSC07736.jpg?itok=2JYD-F5w" class="bookmark-image"/></a></figure><p id="086850b4-f109-49b7-a851-10c6e63ef35f" class="">
+</p><p id="0fb3df3f-43cd-479c-8f51-d6ca1b5f93f7" class=""><strong>0-KNIT</strong> : Bacterial Cellulose Threads</p><figure id="c674a96a-29a5-4d22-9ceb-dd82bb8b0e8d"><a href="https://www.elisava.net/en/projects/0-knit" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">0-Knit</div><div class="bookmark-description">&#x27;0-Knit&#x27; is a brand of bacterial cellulose threads whose aim is producing Zero Waste textiles threads which do not generate polluting waste in its life cycle stages. Bacterial cellulose is a natural polymer obtained from the fermentation of bacteria and yeast with tea and sugar.</div></div><div class="bookmark-href"><img src="https://www.elisava.net/themes/elisava/favicon.ico" class="icon bookmark-icon"/>https://www.elisava.net/en/projects/0-knit</div></div><img src="https://www.elisava.net/sites/default/files/styles/opengraph/public/grande_0-knit_01.jpg?itok=HS1m0tVv" class="bookmark-image"/></a></figure><p id="a1fcb0fd-9fff-4b5e-ade0-c551e13c02e5" class="">By boiling and other techniques, you can change the properties of the materials. There are parameters you can control.</p><p id="eabf70a0-94d6-4bcf-8278-6af36a87c2f2" class="">
+</p><p id="747dc0dc-d716-4b60-8e84-1e01fc964817" class=""><strong>Puig</strong> : Materialisation of Trends 2019 </p><ul id="080fc990-6522-475b-86b8-e2fc066dd8b2" class="bulleted-list"><li style="list-style-type:disc"><em>Main waste here was alcohol from perfume process and cardboard from packaging process.</em></li></ul><ul id="d5f88bc8-119e-4bda-b511-b343fcdad422" class="bulleted-list"><li style="list-style-type:disc"><em>You can recycle cardboard 6-7 times until the fibres become too short.</em></li></ul><ul id="c1f04e86-9029-4982-a641-4cc05c917140" class="bulleted-list"><li style="list-style-type:disc">MATERIAL OUTPUT - Interior tiles and perfume caps</li></ul><p id="dc4da619-b499-441b-846c-6a5310a3d72d" class="">
+</p><p id="738b0268-9cff-4034-9619-826ada4f194a" class=""><strong>De la Molecula al Objecta</strong> (TMDC)</p><p id="cabb407e-b46d-4b2c-aee8-1bf053a4b5b9" class="">Distilling pine leaves and wood into water</p><p id="c3a8fcca-d672-41cd-b11c-30c0cfc83e23" class="">using the cellulose of these and using this in the sand diffuser.</p><figure id="17005de6-d7d6-4099-9c72-960795bfe07f"><a href="https://www.tmdc.es/blog/de-la-molcula-al-objeto" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Casal d&#x27;Estiu - De la molécula al objeto - TMDC</div><div class="bookmark-description">Independent designer and researcher. Understanding design as a socio-cultural gear, from where to project ecologically sustainable futures, through innovation, matter and processes.www.cristinanoguer.com Researcher with a focus on emerging materials and the circular economy, exploring the intersection of design, biology, technology, community and self-sufficiency.</div></div><div class="bookmark-href"><img src="https://images.squarespace-cdn.com/content/v1/5b7d960e372b9653287cff63/1535643729807-3VVH9WSMR0D7S8JUG9P4/favicon.ico?format=100w" class="icon bookmark-icon"/>https://www.tmdc.es/blog/de-la-molcula-al-objeto</div></div><img src="http://static1.squarespace.com/static/5b7d960e372b9653287cff63/5b8039114d7a9cc4d58fd0a1/5f1a8b0f501b3140b34dc9be/1600940173612/Molecula_06.png?format=1500w" class="bookmark-image"/></a></figure><p id="ef4d9877-13af-4052-8939-f55f0f0f05c9" class="">
+</p><p id="ab9c7bb1-a1e6-4a13-8d6b-3cc6667c2afe" class=""><strong>VIBIA</strong></p><p id="49cb5eb6-4dfe-46b7-8218-f3f54c7510f4" class="">Look for good materials that have good light diffusion properties.</p><p id="a30df5d9-6603-4796-a7c6-457c4d4ed3f8" class="">Research based : proximity, sustainability and material properties</p><figure id="37ef87f1-c4e0-4312-ac96-7122b2571caf"><a href="https://www.vibia.com/es/int/colecciones" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Colecciones</div><div class="bookmark-description">Diego Fortunato ha diseñado para Vibia las colecciones de luminarias Jazz y Mayfair. La colección de formas orgánicas Jazz incluye lámpara de pie, lámparas de sobremesa y lámparas colgantes. La nueva propuesta de Diego Fortunato, Mayfair, reactualiza el diseño de las lámparas colgantes utilizadas para iluminar las mesas de biblioteca, aportando un diseño fresco e innovador.</div></div><div class="bookmark-href"><img src="https://www.vibia.com/public/favicon.ico?v=5Aey4vmmNQ" class="icon bookmark-icon"/>https://www.vibia.com/es/int/colecciones</div></div><img src="https://vibia-pro-content.s3.eu-west-1.amazonaws.com/cms/productos/eur/big/col/resultado/big_col_0535_res.jpg" class="bookmark-image"/></a></figure><p id="85b8a77a-4c2c-4fb3-a3ea-961fe1b4c2ce" class="">
+</p><p id="630e4c38-1e46-4cc2-8b3b-bd2035a77e87" class=""><strong>Algae Ink Printing</strong></p><p id="0b4086c6-d12f-4de4-9f63-a4a2f86608ad" class="">Spirulina</p><p id="ad7e3196-46e3-4b19-8170-d68aa15206c2" class="">Paper, textile, PLA filament (for 3D printing)</p><p id="f16a057d-3273-4edf-b72c-718ab2375c66" class="">The colour pigment goes away after a couple of hours, could be seen as an advantage.</p><p id="849926ac-92ce-48c5-8380-9dd7d7662d25" class="">Algae Ink Printing - pen plotter</p><p id="a78821d4-9a10-4579-942d-ea679ebe7172" class="">
+</p><p id="1263637b-aaaa-45d4-9723-aa0f422ec8f3" class=""><strong>Ecology of Colour</strong> - structural color</p><p id="3894ef1d-c8f0-47df-b0fc-d20ef5b77162" class="">feathers of peacocks and pigeon</p><figure id="706d97ad-814f-4f47-9446-4b6eb3e4e8ca"><a href="https://henryvandevelde.be/en/awards/22/ecology-of-colour" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Ecology of Colour</div><div class="bookmark-description">At the intersection between art, design and biotechnology, this research identifies the environmental impact of the color industry and creates the shift to a sustainable approach to color. Ecology of Colour develops ecological inks with pigments from microalgae on the one hand and a sustainable palette of structural colors on the other.</div></div><div class="bookmark-href"><img src="https://henryvandevelde.be/favicon.png" class="icon bookmark-icon"/>https://henryvandevelde.be/en/awards/22/ecology-of-colour</div></div><img src="https://www.datocms-assets.com/53750/1636985882-2022-ecology-of-colour-social.jpg?w=1200&amp;h=630&amp;fit=crop" class="bookmark-image"/></a></figure><p id="3d03b169-d536-467f-996d-cdb85dc3c5fd" class="">
+</p><figure id="5b23fac9-b5cd-4f6b-b93f-cc2b5a8a84c5"><div class="source"><a href="https://www.youtube.com/watch?v=qfa2VK4YRJQ">https://www.youtube.com/watch?v=qfa2VK4YRJQ</a></div></figure><p id="c502085e-5c71-4b8a-af28-4d64f01874b5" class="">
+</p><p id="851ee22b-c765-4ceb-90c9-bc291e111062" class=""><strong>SISCODE - Horizon 2020</strong></p><p id="629065c7-7ff6-4ec8-a257-9fe8f86f1098" class="">co-creation between teams, organisations, infrastructures and ecosystems</p><p id="effbad89-a1a2-416b-af75-46c36e0c69a4" class="">prototyping loop - remix el barrio</p><p id="ef9fc0d8-b88e-4a78-a936-b939607c5527" class="">practical workshops, exhibitions, open-source organic waste tutorials, manifesto</p><p id="a61cd323-ee74-4207-afbe-4f4d5fd114af" class="">
+</p><p id="35844d21-0e98-4cb7-b02d-5fec7405a6d5" class=""><strong>Organic Matters</strong></p><ul id="1e16e806-aa8d-4268-ab96-ae3bc452aba4" class="bulleted-list"><li style="list-style-type:disc">the infrasture</li></ul><ul id="1f3e2afb-cf67-47f1-90d6-4336fcd6362f" class="bulleted-list"><li style="list-style-type:disc">what they do</li></ul><ul id="db77941f-25bc-4796-aa53-3d7c123c7955" class="bulleted-list"><li style="list-style-type:disc">what material can you use</li></ul><ul id="46846096-bd0c-41a0-93ec-9709948a6098" class="bulleted-list"><li style="list-style-type:disc">what are the properties of it</li></ul><ul id="9b15bdd0-c3ed-4f6f-aee4-17c279ffe2e5" class="bulleted-list"><li style="list-style-type:disc">how it can be recycled / processed</li></ul><ul id="cf0efc06-b751-43b5-adb4-88fdbb63cd77" class="bulleted-list"><li style="list-style-type:disc">what application can be used for</li></ul><p id="f51df98b-57df-413d-9558-af8ea328f5e2" class="">
+</p><p id="b87ffa91-d782-44a1-a43c-f66a317507ba" class=""><strong>METHODOLOGY</strong> : Exploration phase —— collaborative phase —— Scalability &amp; Future</p><p id="f7043e1a-5aaf-4fd5-8060-19e10ab275d7" class="">
+</p><p id="f645d48d-6c49-4930-80c3-359fe4485e62" class="">Circular Design</p><figure id="234d8de7-7689-4d6f-b75d-74f947f3c725" class="image"><a href="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%202.png"><img style="width:2448px" src="Remixing%20Materials%20a88246a8517c4c9db8a5f4a98a11862a/Untitled%202.png"/></a></figure><p id="5df44f98-1d0d-4b72-a70e-a814230a3353" class="">
+</p><p id="7692832a-8f2a-4de6-a807-8250bed9dd74" class="">Circular Materials</p><figure id="1e3cc2c5-5960-4a89-8959-81d1700231f1"><a href="https://girbaulab.com/projects/clint/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href"><img src="https://girbaulab.com/favicon.ico" class="icon bookmark-icon"/>https://girbaulab.com/projects/clint/</div></div></a></figure><p id="e038a682-cf30-4342-839d-dd7346c4d44d" class="">
+</p><p id="f4150ead-7152-41ac-8e3a-f318bc5b58fc" class="">design, redesign, reshape, repurpose, reuse &amp; redefine materials by giving them a whole new purpose.</p><p id="9c8f6ede-f7e6-41e3-9ea7-16ba970c8ebc" class="">
+</p><p id="66c2a2a7-9d41-4e40-bbe1-4bd243021fc9" class="">research, advice</p><p id="8e74c2ee-e7f6-4d8a-a169-cdf3c1bf3f98" class="">
+</p><figure id="9eb26b40-8b36-4840-9e89-7a356591a6f2"><div class="source"><a href="http://materialdesigners.org/wp-content/uploads/2021/03/MaDe-Book-1.pdf">http://materialdesigners.org/wp-content/uploads/2021/03/MaDe-Book-1.pdf</a></div></figure><p id="1203f391-cd53-4af8-bc4d-361ca7993905" class="">
+</p><p id="755cf75e-36b8-434d-8393-8cefa8fadb82" class="">Remix in Context</p><p id="73bd72a2-8a00-4a9b-b25c-40ea1084f982" class="">Material SWOT Analysis</p><p id="9ac9782c-6cdf-4982-88f4-fe4e58d975a2" class="">Material Life Cycle</p><p id="a0d00827-3e83-4a42-bb76-7247c89f6a40" class="">4,5,6 Material Worksheet</p><p id="ce2131c5-a7dd-4db5-912f-e32b7446fba9" class="">Material Documentation (structure)</p><p id="e6ea6a89-da2d-4c95-9bb9-879630f06ff4" class="">Material Reflection (Website)</p><p id="a96e7cfd-92e8-442e-b6ea-571fe905e7d4" class="">
+</p><p id="e0ad6993-79d7-4bbb-a548-f0e7b3671a93" class=""><mark class="highlight-yellow_background"><em>wasted</em></mark></p><p id="b65f39ff-c729-4fc5-b251-f0f8f725abec" class=""><mark class="highlight-yellow_background"><em>neri oxman material</em></mark></p><p id="b061dbc7-c71b-4069-8173-11ae3603b870" class=""><mark class="highlight-yellow_background"><em>lo-tek</em></mark></p><p id="f31aed3b-c98f-4940-bdf3-f1699190ce6e" class=""><mark class="highlight-yellow_background"><em>aesthetics of sustainability</em></mark></p><p id="3f08aa1b-38fb-4f72-bca2-950d6f5d029f" class="">
+</p><p id="80a31425-2fc9-4215-8837-783c01292f38" class="">
+</p><p id="2fed847a-4636-4ca6-b8a3-d3ef3bf2cd2a" class=""><strong><mark class="highlight-red">EXHIBITION 3rd Feb : material samples, final application</mark></strong></p><p id="7602ba33-9235-4db8-9c9f-18d0559cb21a" class="">
+</p></div></article></body></html>
