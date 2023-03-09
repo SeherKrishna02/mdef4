@@ -22,7 +22,7 @@ As I head to bed, I reflect on the day and feel a sense of purpose and fulfillme
 
 <h2>I decided to make a collage with DALL-E to generate a future outlook on what this might look like:</h2>
 
-![](Future_scenario.JPEG)
+![](../images/Future_scenario.JPEG)
 
 <h2>Group Presentation:</h2>
 
