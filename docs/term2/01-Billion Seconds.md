@@ -6,7 +6,7 @@ hide:
 
 My take on what to expect the world to be like one billion seconds from now would be a mix of dystopian and utopian future.
 
-<h2>My possible scenario for a day in my life as a creative, outdoor, nature-loving person who is passionate about sustainability:</h2>
+My possible scenario for a day in my life as a creative, outdoor, nature-loving person who is passionate about sustainability:
 
 <i>I wake up in my eco-friendly home, powered by renewable energy sources and designed to minimize your environmental footprint. I step outside into the fresh air and I'm greeted by a beautiful garden filled with native plants and a small pond teeming with wildlife. I spend some time tending to my garden, watering the plants and harvesting some fruits and vegetables for breakfast.
 
@@ -18,11 +18,11 @@ In the evening, I return home and spend some time working on your latest creativ
 
 As I head to bed, I reflect on the day and feel a sense of purpose and fulfillment. I know that there are many challenges facing the world, but I'm doing my part to make a positive difference and create a better future for myself and for generations to come.</i>
 
-<h2>I decided to make a collage with DALL-E to generate a future outlook on what this might look like:</h2>
+I decided to make a collage with DALL-E to generate a future outlook on what this might look like:
 
 ![](Future_scenario.jpg)
 
-<h2>Group Presentation:</h2
+Group Presentation:
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -31,4 +31,4 @@ As I head to bed, I reflect on the day and feel a sense of purpose and fulfillme
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFcuq3X8PY&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFcuq3X8PY&#x2F;view?utm_content=DAFcuq3X8PY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> by Seher Krishna
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFcuq3X8PY&#x2F;view?utm_content=DAFcuq3X8PY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a>
