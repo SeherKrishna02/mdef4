@@ -10,9 +10,7 @@ A film dealing with the relative size of things in the universe and the effect o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fKBhvDjuy0?start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![](../images/circulardesign.jpg)
 
-![](../images/Circularsystems.jpg)
 
 I'd like to share some documentaries that I felt were related to some of the aspects that are discussed in the book - A History of the World in Seven Cheap Things
 Book by Jason W. Moore and Raj Patel.
@@ -58,6 +56,8 @@ In summary, design can contribute to addressing the issues raised in the book by
 
 Overall, design has the potential to reshape our current systems of extraction by promoting more sustainable, equitable, and ethical practices. By incorporating design thinking into the extraction industry, we can create a more sustainable and equitable future for all.</i>
 
+![](../images/Circularsystems.jpg)
+
 <b>Knowing all these trends and factors, how do you think we should change to guarantee a sustainable future?</b>
 
 <i>There are many things that individuals and society as a whole can do to promote a sustainable future. Here are some ideas:
@@ -91,6 +91,8 @@ Overall, the power of today's design tools allows us to create worlds that are m
 5. Capacity Building: Designers must also invest in building the capacity of stakeholders to participate in the design process and implement new solutions. This includes providing training and support to communities, businesses, and policymakers to ensure that they have the knowledge and skills to participate effectively in the transition.
 
 Overall, designing the transition towards these new worlds requires a collaborative, iterative, and holistic approach that takes into account the needs and perspectives of diverse stakeholders. By working together, we can create a more sustainable, inclusive, and innovative future for all.</i>
+
+![](../images/circulardesign.jpg)
 
 <b>Why do you think its important for us to design towards these?</b>
 
