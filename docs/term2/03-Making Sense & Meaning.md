@@ -30,13 +30,13 @@ My journey through this master has been to look at how to make our conenctions w
 
 I asked ChatGPT to generate answers for the following statements and questions. I was expecting something very technical and a response that I might be unaware of but I feel we have learnt about these through the various modules during the MDEF course and also have learnt through the kind of interests I have(movies and shows)
 
-Upon questioning what was discussed in the book- A History of the World in Seven Cheap Things: A Guide to Capitalism, Nature, and the Future of he Planet is a book by Raj Patel and Jason W. Moore published in 2018. I got this summary from ChatGPT.
+<b>Upon questioning what was discussed in the book- A History of the World in Seven Cheap Things: A Guide to Capitalism, Nature, and the Future of he Planet is a book by Raj Patel and Jason W. Moore published in 2018. I got this summary from ChatGPT.</b>
 
 <i>A History of the World in Seven Cheap Things is a book that explores the relationship between capitalism and nature, and how it has shaped the world we live in today. The authors, Raj Patel and Jason W. Moore, argue that capitalism has relied on the exploitation of cheap labor, food, energy, raw materials, and finance to expand and accumulate wealth. These cheap things are made possible by the unpaid work of nature and humans, and by externalizing the social and environmental costs of production and consumption.
 The book traces the history of capitalism and its impact on nature and society from the colonial era to the present day, focusing on seven cheap things that have enabled capitalism to thrive: nature, money, work, care, food, energy, and lives. The authors show how these cheap things are interconnected and how they have been used to exploit and dominate people and nature, leading to social and environmental crises such as climate change, inequality, and food insecurity.
 The book also offers a critique of mainstream economics and calls for a new approach that recognizes the limits of the planet and the need for ecological and social sustainability. The authors argue that we need to move beyond the logic of cheap things and towards a more just and sustainable economic system that values nature, people, and the common good.</i>
 
-How can design help with what this book talks about?
+<b>How can design help with what this book talks about?</b>
 
 <i>Design can play an important role in addressing the issues raised in the book "A History of the World in Seven Cheap Things" by Raj Patel and Jason W. Moore. Here are some ways in which design can contribute:
 Sustainable Design: Designers can create products, services, and systems that minimize their impact on the environment and reduce the use of cheap natural resources, such as water, energy, and raw materials. Sustainable design can also address the social impacts of production, such as labor conditions, by promoting fair trade and ethical practices.
@@ -47,7 +47,7 @@ Design for Education: Designers can create educational programs, resources, and 
 In summary, design can contribute to addressing the issues raised in the book by promoting sustainable practices, placing people at the center of the design process, promoting circular economy, advocating for social change, and creating educational resources and experiences.</i>
 
 
-How can design reconfigure systems of extraction?
+<b>How can design reconfigure systems of extraction?</b>
 
 <i>Design can play a critical role in reconfiguring systems of extraction by introducing new approaches, methods, and technologies that challenge and transform the current models of extraction. Here are some ways design can contribute to this:
 
@@ -58,7 +58,7 @@ How can design reconfigure systems of extraction?
 
 Overall, design has the potential to reshape our current systems of extraction by promoting more sustainable, equitable, and ethical practices. By incorporating design thinking into the extraction industry, we can create a more sustainable and equitable future for all.</i>
 
-Knowing all these trends and factors, how do you think we should change to guarantee a sustainable future?
+<b>Knowing all these trends and factors, how do you think we should change to guarantee a sustainable future?</b>
 
 <i>There are many things that individuals and society as a whole can do to promote a sustainable future. Here are some ideas:
 Reduce our Carbon Footprint: One of the most significant contributors to climate change is our use of fossil fuels. We can reduce our carbon footprint by using public transportation, biking or walking instead of driving, using energy-efficient appliances, and consuming less energy overall.
@@ -69,7 +69,7 @@ Support Sustainable Policies: Government policies and regulations can play a sig
 Practice Conscious Consumerism: Our consumption patterns can have a significant impact on the environment and society. We can practice conscious consumerism by choosing products that are sustainably produced, supporting companies that prioritize sustainability, and reducing our overall consumption.
 Overall, promoting sustainability requires a collective effort from individuals, organizations, and governments. By adopting these practices, we can work toward a more sustainable future for ourselves and future generations.</i>
 
-Which worlds can we design with the power of today's tools?
+<b>Which worlds can we design with the power of today's tools?</b>
 
 <i>Today's tools for design are incredibly powerful, providing designers with the ability to create and shape new worlds in ways that were once impossible. Here are some examples of the worlds that we can design with the power of today's tools:
 
@@ -80,7 +80,7 @@ Which worlds can we design with the power of today's tools?
 
 Overall, the power of today's design tools allows us to create worlds that are more sustainable, inclusive, and collaborative than ever before. By harnessing these tools, we can work together to shape a better future for ourselves and the planet.</i>
 
-How can we design the transition towards these world?
+<b>How can we design the transition towards these world?</b>
 
 <i>Designing the transition towards these new worlds requires a multifaceted approach that involves collaboration, experimentation, and iteration. Here are some key steps that can be taken to design a successful transition towards these worlds:
 
@@ -92,7 +92,7 @@ How can we design the transition towards these world?
 
 Overall, designing the transition towards these new worlds requires a collaborative, iterative, and holistic approach that takes into account the needs and perspectives of diverse stakeholders. By working together, we can create a more sustainable, inclusive, and innovative future for all.</i>
 
-Why do you think its important for us to design towards these?
+<b>Why do you think its important for us to design towards these?</b>
 
 <i>Designing towards these new worlds is important for several reasons:
 
@@ -104,7 +104,7 @@ Why do you think its important for us to design towards these?
 
 Overall, designing towards these new worlds is important because it helps us address complex challenges, create a better future, unlock economic opportunities, foster collaboration and innovation, and support resilience. By working together to design a more sustainable, inclusive, and innovative future, we can create a better world for ourselves and future generations.</i>
 
-What are the ways to deal with this to document our past better for our future generations knowing that the future might be a mix of dystopian and utopian?
+<b>What are the ways to deal with this to document our past better for our future generations knowing that the future might be a mix of dystopian and utopian?</b>
 
 <i>Documenting our past and preserving knowledge for future generations is important to ensure that we don't lose valuable information and can continue to learn and progress as a society. Here are some ways to deal with this challenge:
 
@@ -116,7 +116,7 @@ What are the ways to deal with this to document our past better for our future g
 
 In summary, there are many ways to document our past better for future generations, and it is important to take action now to ensure that valuable knowledge is not lost. By using digital archiving, oral history, disaster preparedness, education, and collaborative efforts, we can work towards a better future.</i>
 
-Projects that I found would relevant to the topics discussed above:
+<b>Projects that I found were relevant to the topics discussed above:</b>
 
 <a class="button" href="https://space10.com/space10-open-sources-the-growroom/">The Growroom</a>
 
