@@ -13,4 +13,4 @@ hide:
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFdGH2T0Jo&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFdGH2T0Jo&#x2F;view?utm_content=DAFdGH2T0Jo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFdGH2T0Jo&#x2F;view?utm_content=DAFdGH2T0Jo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Aim: to create a repository for documenting biomaterial recipes with local(Indian) and other ingredients. To build this as a way to connect, collaborate and co-create towards a circular economy.</a>
