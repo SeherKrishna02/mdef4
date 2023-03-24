@@ -785,3 +785,9 @@ Topological Optimisation - mathematical method that optimises material layout wi
 
 <p id="a5b93410-07d2-4e79-8c05-1349ff6c2f12" class=""><mark class="highlight-blue_background">Challenge 01</mark></p><p id="d491c89e-adbd-4466-8a55-84ca084a50f6" class=""><mark class="highlight-blue_background"><em>Andaaza</em></mark></p>
  <a href="https://www.canva.com/design/DAFaumtP7p8/6alduDLkCOwk2gHwn5hSnA/view?utm_content=DAFaumtP7p8&utm_campaign=designshare&utm_medium=link&utm_source=viewer">Presentation</a></p><p id="77c45388-4d9c-4c29-bbbe-14599caef51d" class="">
+
+
+ <h3>3D Printing</h3>
+
+ ![](../images/whistle1.jpeg)
+ ![](../images/whistle2.jpeg)
