@@ -789,5 +789,5 @@ Topological Optimisation - mathematical method that optimises material layout wi
 
  <h3>3D Printing</h3>
 
- ![](../images/whistle1.jpeg)
- ![](../images/whistle2.jpeg)
+ ![](../images/whistle1.JPEG)
+ ![](../images/whistle2.JPEG)
