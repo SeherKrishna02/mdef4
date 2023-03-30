@@ -1224,10 +1224,600 @@ Topological Optimisation - mathematical method that optimises material layout wi
 <p id="a5b93410-07d2-4e79-8c05-1349ff6c2f12" class=""><mark class="highlight-blue_background">Challenge 01</mark></p><p id="d491c89e-adbd-4466-8a55-84ca084a50f6" class=""><mark class="highlight-blue_background"><em>Andaaza</em></mark></p>
  <a href="https://www.canva.com/design/DAFaumtP7p8/6alduDLkCOwk2gHwn5hSnA/view?utm_content=DAFaumtP7p8&utm_campaign=designshare&utm_medium=link&utm_source=viewer">Presentation</a></p><p id="77c45388-4d9c-4c29-bbbe-14599caef51d" class="">
 
+ Isotropic - similar structure properties in all directions
+
+ plastic extrusion (FDM)
+
+ SLA (light polymerised) - resins, have some additive which get photons at a specific duration and start a chemical reaction. By heat, light or different compounds.
+
+ powder bed (3DP) - metal/ceramic/other powder which can bound by a binder. Can be bound by heat, inks, or lasers.
+
+ thermo plastics get in a fluid state when heated, you can undo it.
+
+ 3D model - slicer software - 3D printer (material and printer capabalities)
+
+ FDM
+
+ bed
+
+ print head / extrusion head
+
+ supports
+
+ Layer Height
+
+ 005 or 02
+
+ when you print thinne, you can increase the speed.
+
+ when you print thick, you should print slower.
+
+ By creating complex geometry within the object, you can save more material and time.
+
+ SHELL - top layer, bottom layer, shell and infill
+
+ INFILL - to fill density, 50% infill is stronger. Most printer’s use 20% infill.
+
+ more infill + additional thickness of the casing provides strength (can be driller)
+
+ Types of Infill-
+
+ rectangular / triangular / wiggle / honeycomb
+
+ You can change the shape properties using different infill patterns. Eg. a wiggle infill pattern can be springy/ flexible.
+
+ STL - mesh file for 3D printing
+
+ OBJ is the best - has scale also.
+
+ Paste printing - the consistency can be worked on by additives to make them cure faster and also reduce the material properties.
+
+ Non-planar printing - curved layers
+
+ multi axis cdm-fff printing
+
+ SLS - structured light scanners
+
+ Pattern + light to calculate deformities to scan the object.
+
+ [https://www.youtube.com/watch?v=VaXrX0veR9Y](https://www.youtube.com/watch?v=VaXrX0veR9Y)
+
+ [https://www.youtube.com/watch?v=s-lvK3uwkqw](https://www.youtube.com/watch?v=s-lvK3uwkqw)
+
+ [https://www.youtube.com/watch?v=axdPIc6FqQU](https://www.youtube.com/watch?v=axdPIc6FqQU)
+
+ [https://www.youtube.com/watch?v=yJhWasl8QYw](https://www.youtube.com/watch?v=yJhWasl8QYw)
+
+ Etymology
+
+ photogrammetry
+
+ [https://www.youtube.com/watch?v=ZIW4XU6Wm8Q](https://www.youtube.com/watch?v=ZIW4XU6Wm8Q)
+
+ ![Untitled](Digital%20Prototyping%206fce6123dd674cbca86008ca395eda1a/Untitled%202.png)
+
+ dome take
+
+ cylindrical take
+
+ orbital
+
+ E57 - landscape but is rhino compatible
+
+ scanning a house, the house is geolocalised. you can put it into google maps and your house will be there in super high resolution scanned.
+
+ Autodesk Recap Photo
+
+ Meshroom/Alicevision
+
+ Regard3D
+
+ Colmap
+
+ Visual SFM
+
+ UPLOAD THE FILES ON SKETCHFAB
+
+ You don’t upload images with the sky as the blue takes a lot of computing power for the 3d scan, so upload png without the sky.
+
+ **Networking & Communication**
+
+ communication - free flowing data/ electricity/ energy from one point to another
+
+ **internet** - read the sensor to send data by reading the values and sending it to the network.
+
+ **network** - a set of devices connected to each other through any type of communication lines that allows the exchange of data between them.
+
+ why do we want networks?
+
+ - to give information to someone who is not in the same place.
+
+ **Communication protocols** - The protocol defines the rules, syntax, semantics and synchronization of communication and possible error recovery methods.
+
+ air / ears / mouth are the physical parts that let the data flow.
+
+ but when you speak in another language, the data doesn’t flow cause you don’t understand. So you need a set of rules/ protocols to define how data is going to flow.
+
+ Depending on the different networks, there are different protocols.
+
+ **Gateway** - star network topology
+
+ **DNS** - Domain Name System - the part before .com / .edu / .org
+
+ **Gemini** is a new internet protocol that aims to be simple, fast, and efficient. It was created as an alternative to HTTP and HTTPS, which are more complex and slow due to their many features and security measures. Gemini is designed to be easy to implement and use for both clients and servers. It uses a simple text-based format for requests and responses, and supports basic HTML-like formatting for text content.
+
+ **Asynchronised communication** - serial.begin function
+
+ there is no timing constraint.
+
+ **Synchronised communication** - eg; a beating drum for synchronised rowing of a boat.
+
+ there is a time constraint.
+
+ There are two ports connected - Data line and a time constraint.
+
+ OTA - over the air communication
+
+ rainbow is high frequency of light
+
+ pitch is a high frequency audio
+
+ amplitude modulation - AM
+
+ frequency modulation - FM
+
+ [Listen to live Vilassar de Mar radio on Radio Garden](http://radio.garden/visit/vilassar-de-mar/0LpQRpJj)
+
+ ### 01 March 2023
+
+ int LED_PIN = 14 vs. #define LED_PIN = 14
+
+ #define is more convenient and efficient
+
+ serial monitor message = blink
+
+ *it blink 3 times
+
+ Install JLED code on Arduino
+
+ code 01
+
+ <div class="highlight"><pre><span></span><code>#include &quot;jled.h&quot;
+#define LED_PIN 14
+
+// New code for MQTT!
+//-------------------
+#include &lt;WiFi.h&gt;
+#include &lt;PubSubClient.h&gt;
+
+const char* ssid = &quot;Iaac-Wifi&quot;;
+const char* password = &quot;EnterIacc22@&quot;;
+WiFiClient wifiClient;
+
+const char* mqttBroker = &quot;mqtt-staging.smartcitizen.me&quot;;
+const char* mqttClientName = &quot;team&quot;;
+const char* mqttClientUser = &quot;fablabbcn102&quot;;
+const char* mqttClientPass = &quot;&quot;;
+const char* topicToSub = &quot;lab&quot;;
+// const char* topicToPub = &quot;lab&quot;;
+PubSubClient mqttClient(wifiClient);
+//-------------------
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+JLed led = JLed(LED_PIN);
+
+//-------------------
+// Add more animations here!
+// Basic blink
+void blink () {
+  led.Blink(1000, 600).Repeat(3);
+}
+
+// Smooth breathing
+void breathe() {
+  led.Breathe(1000).Repeat(3);
+}
+//-------------------
+
+void mqttConnect() {
+
+  while (!mqttClient.connected()) {
+
+    Serial.print(&quot;Attempting MQTT connection...&quot;);
+
+    if (mqttClient.connect(mqttClientName, mqttClientUser, mqttClientPass)) {
+
+      Serial.println(&quot;connected&quot;);
+      mqttClient.publish(&quot;hello&quot;, mqttClientName);
+
+      // Topic(s) subscription
+      mqttClient.subscribe(topicToSub);
+
+    } else {
+
+      Serial.print(&quot;failed, rc=&quot;);
+      Serial.print(mqttClient.state());
+      Serial.println(&quot; try again in 5 seconds&quot;);
+      delay(5000);
+
+    }
+  }
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+
+  String newMsg;
+
+  for (int i = 0; i &lt; length; i++) {
+    newMsg += (char)message[i];
+  }
+
+  Serial.print(&quot;Message arrived on topic: &quot;);
+  Serial.print(topic);
+  Serial.print(&quot;. Message: &quot;);
+  Serial.println(newMsg);
+
+  if (String(topic) == topicToSub) {
+
+    // For debugging purposes, print it
+    Serial.print(&quot;Got new message!: &quot;);
+    Serial.println(newMsg);
+
+    // Blink if we tell it to!
+    if (newMsg.equals(&quot;blink&quot;)){
+      blink();
+    // Or breathe!
+    } else if (newMsg.equals(&quot;breathe&quot;)) {
+      breathe();
+    }
+  }
+}
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+
+  // Connect to wifi
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+
+  Serial.print(&quot;Connected to &quot;);
+  Serial.println(ssid);
+  Serial.print(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+
+  // MQTT setup
+  mqttClient.setServer(mqttBroker, 1883);
+  mqttClient.setCallback(callback);
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  // Check if we are still connected to the MQTT broker
+  if (!mqttClient.connected()) {
+    mqttConnect();
+  }  
+
+  // Let PubSubClient library do his magic
+  mqttClient.loop();
+
+  // Do not remove this line!
+  led.Update();
+}
+</code></pre></div>
+
+ code 02
+
+ <div class="highlight"><pre><span></span><code>int LED_PIN = 14
+
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_pin, 14);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_PIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_PIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+</code></pre></div>
+
+ code 03
+
+ <div class="highlight"><pre><span></span><code>// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 14 as an output.
+  pinMode(14, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(14, HIGH); // turn the LED on
+  delay(500);             // wait for 500 milliseconds
+  digitalWrite(14, LOW);  // turn the LED off
+  delay(500);             // wait for 500 milliseconds
+}
+</code></pre></div>
+
+ code 04
+
+ <div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
+#include &quot;JLED.h&quot;
+#define LED_PIN 14
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+auto led = JLed(LED_PIN);
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output
+  Serial.begin(9600);
+}
+
+// Basic blink
+void blink () {
+  led.Blink(1000, 600).Repeat(3);
+}
+
+// Smooth breathing
+void breathe() {
+  led.Breathe(1000).Repeat(3);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  if (Serial.available()) {
+    // Read the string and clean it up
+    String newMsg = Serial.readString();
+    newMsg.trim();
+
+    // For debugging purposes, print it
+    Serial.print(&quot;Got new message!: &quot;);
+    Serial.println(newMsg);
+
+    // Blink if we tell it to!
+    if (newMsg.equals(&quot;blink&quot;)){
+      blink();
+    // Or breathe!
+    } else if (newMsg.equals(&quot;breathe&quot;)) {
+      breathe();
+    }
+  }
+
+  // Do not remove this line!
+  led.Update();
+}
+</code></pre></div>
+
+ code 05
+
+ <div class="highlight"><pre><span></span><code>#include &quot;Arduino.h&quot;
+#include &quot;jled.h&quot;
+#define LED_PIN 14
+
+// New code for MQTT!
+//-------------------
+#include <span class="p">&lt;</span><span class="nt">WiFi.h</span><span class="p">&gt;</span>
+#include <span class="p">&lt;</span><span class="nt">PubSubClient.h</span><span class="p">&gt;</span>
+
+const char* ssid = &quot;Iaac-Wifi&quot;;
+const char* password = &quot;EnterIaac22@&quot;;
+WiFiClient wifiClient;
+
+const char* mqttBroker = &quot;mqtt-staging.smartcitizen.me&quot;;
+const char* mqttClientName = &quot;team&quot;;
+const char* mqttClientUser = &quot;fablabbcn102&quot;;
+const char* mqttClientPass = &quot;&quot;;
+const char* topicToSub = &quot;lab&quot;;
+// const char* topicToPub = &quot;lab&quot;;
+PubSubClient mqttClient(wifiClient);
+//-------------------
+
+// Jled object.
+// More information here: https://github.com/jandelgado/jled#usage
+JLed led = JLed(LED_PIN);
+
+//-------------------
+// Add more animations here!
+// Basic blink
+void blink (int time_on = 100) {
+  led.Blink(time_on, time_on).Repeat(3);
+}
+
+// Smooth breathing
+void breathe(int time_on = 100) {
+  led.Breathe(time_on).Repeat(3);
+}
+//-------------------
+
+void mqttConnect() {
+
+  while (!mqttClient.connected()) {
+
+    Serial.print(&quot;Attempting MQTT connection...&quot;);
+
+    if (mqttClient.connect(mqttClientName, mqttClientUser, mqttClientPass)) {
+
+      Serial.println(&quot;connected&quot;);
+      mqttClient.publish(&quot;hello&quot;, mqttClientName);
+
+      // Topic(s) subscription
+      mqttClient.subscribe(topicToSub);
+
+    } else {
+
+      Serial.print(&quot;failed, rc=&quot;);
+      Serial.print(mqttClient.state());
+      Serial.println(&quot; try again in 5 seconds&quot;);
+      delay(5000);
+
+    }
+  }
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+
+  String newMsg;
+
+  for (int i = 0; i <span class="p">&lt;</span> <span class="nt">length</span><span class="err">;</span> <span class="na">i</span><span class="err">++)</span> <span class="err">{</span>
+    <span class="na">newMsg</span> <span class="err">+=</span> <span class="err">(</span><span class="na">char</span><span class="err">)</span><span class="na">message</span><span class="err">[</span><span class="na">i</span><span class="err">];</span>
+  <span class="err">}</span>
+
+  <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">print</span><span class="err">(&quot;</span><span class="na">Message</span> <span class="na">arrived</span> <span class="na">on</span> <span class="na">topic:</span> <span class="err">&quot;);</span>
+  <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">print</span><span class="err">(</span><span class="na">topic</span><span class="err">);</span>
+  <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">print</span><span class="err">(&quot;.</span> <span class="na">Message:</span> <span class="err">&quot;);</span>
+  <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">println</span><span class="err">(</span><span class="na">newMsg</span><span class="err">);</span>
+
+  <span class="na">if</span> <span class="err">(</span><span class="na">String</span><span class="err">(</span><span class="na">topic</span><span class="err">)</span> <span class="err">==</span> <span class="na">topicToSub</span><span class="err">)</span> <span class="err">{</span>
+
+    <span class="err">//</span> <span class="na">For</span> <span class="na">debugging</span> <span class="na">purposes</span><span class="err">,</span> <span class="na">print</span> <span class="na">it</span>
+    <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">print</span><span class="err">(&quot;</span><span class="na">Got</span> <span class="na">new</span> <span class="na">message</span><span class="err">!</span><span class="na">:</span> <span class="err">&quot;);</span>
+    <span class="err">//</span> <span class="na">Serial</span><span class="err">.</span><span class="na">println</span><span class="err">(</span><span class="na">newMsg</span><span class="err">);</span>
+
+    <span class="na">int</span> <span class="na">pos </span><span class="o">=</span> <span class="s">newMsg.indexOf(&quot;/&quot;);</span>
+    <span class="na">String</span> <span class="na">action</span><span class="err">;</span>
+    <span class="na">int</span> <span class="na">param</span><span class="err">;</span>
+    <span class="na">if</span> <span class="err">(</span><span class="na">pos</span> <span class="p">&gt;</span> -1) {
+      action = newMsg.substring(0, pos);
+      param = newMsg.substring(pos+1).toInt();
+    } else {
+      action = newMsg;
+      param = 100;
+    }
+
+    // Serial.print(&quot;Action requested: &quot;);
+    // Serial.println(action);    
+
+    // Serial.print(&quot;Parameter: &quot;);
+    // Serial.println(param);
+
+    // Blink if we tell it to!
+    if (action.equals(&quot;blink&quot;)){
+      blink(param);
+    // Or breathe!
+    } else if (action.equals(&quot;breathe&quot;)) {
+      breathe(param);
+    }
+  }
+}
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+
+  // Connect to wifi
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+
+  Serial.print(&quot;Connected to &quot;);
+  Serial.println(ssid);
+  Serial.print(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+
+  // MQTT setup
+  mqttClient.setServer(mqttBroker, 1883);
+  mqttClient.setCallback(callback);
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+  // Check if we are still connected to the MQTT broker
+  if (!mqttClient.connected()) {
+    mqttConnect();
+  }  
+
+  // Let PubSubClient library do his magic
+  mqttClient.loop();
+
+  // Do not remove this line!
+  led.Update();
+}
+</code></pre></div>
+
+ ### 02 March 23
+
+ CNC Milling
+
+ -substractive technique, removing material from a solid block
+
+ -rotational blades
+
+ -most industrialised procedures, most industries use these machines, because it’s completely automated
+
+ -very strong because isotropic material is started with
+
+ -very intricate designs can be achieved because of 3 axis.
+
+ -2d, 3d and 2.5d cuts
+
+ -2.5d cuts is how much you control in height. so engrave but not cut through the entire way.
+
+ [https://www.google.com/search?q=KUNG+FU+movie+jaden+smith+jacket+scene&client=safari&rls=en&biw=1512&bih=865&tbm=vid&sxsrf=AJOqlzUykw9ONufHOzvXgHzAr1sw46GDvw:1677749664089&ei=oG0AZK32BPuYkdUP1oCumAo&ved=0ahUKEwitxv_F-Lz9AhV7TKQEHVaAC6MQ4dUDCAw&uact=5&oq=KUNG+FU+movie+jaden+smith+jacket+scene&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQghEKABOgQIIxAnOgYIABAWEB46BAghEBU6CAghEBYQHhAdOgcIIRCgARAKUO0BWNAkYJQmaARwAHgAgAHAAYgB6RSSAQQwLjE4mAEAoAEBwAEB&sclient=gws-wiz-video#fpstate=ive&vld=cid:4a906271,vid:8INjmc-WWSY](https://www.google.com/search?q=KUNG+FU+movie+jaden+smith+jacket+scene&client=safari&rls=en&biw=1512&bih=865&tbm=vid&sxsrf=AJOqlzUykw9ONufHOzvXgHzAr1sw46GDvw:1677749664089&ei=oG0AZK32BPuYkdUP1oCumAo&ved=0ahUKEwitxv_F-Lz9AhV7TKQEHVaAC6MQ4dUDCAw&uact=5&oq=KUNG+FU+movie+jaden+smith+jacket+scene&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQghEKABOgQIIxAnOgYIABAWEB46BAghEBU6CAghEBYQHhAdOgcIIRCgARAKUO0BWNAkYJQmaARwAHgAgAHAAYgB6RSSAQQwLjE4mAEAoAEBwAEB&sclient=gws-wiz-video#fpstate=ive&vld=cid:4a906271,vid:8INjmc-WWSY)
+
+ AUTOMATION
+
+ ACCURATE
+
+ - kerf
+ - cutting style - the laser goes on the line, it cuts a half on one side and half on the other so the dimension of the object will change. But if you choose the option ‘cut outside of the line’ then you get the interior part of the dimension.
+ - tolerance
+ - dog bone / T-bone cuts so the pieces fit together really well.
+
+ TOOLPATH
+
+ which order, what speed to cut which part in
+
+ 6mm end mill will cut max. 3mm
+
+ fabricate in pairs or more
+
+ make a pice of furniture for the class
+
+ or something for your intervention’
+
+ add 0.4mm + thickness of material for the cut depth to be sure the material is cutting cut all the way through.
+
+ 14 March 2023
+
+ - Make a flowchart for tomorrow - to help explain the prototype (helps in writing the code later). Also helps in de-bugging and understanding user interaction of the artefact.
+
+
+ - Include the feather esp32 in the artifact
+ - And include new fabrication and computing tools.
+
+ THINGS TO DO - CHALLENGE 02
+
+ MOLD- A cup - 3d scanning itnig cup 3d printing
+
+ HOLDER - remodel the pen holder (to hold a standard carving tool) laser
+
+ GASKET/WASHER - to help with the flexibility of the tool only in one direction. 3d printing
+
+ PHYSICAL COMPUTING - interfaces - machine
 
  <h3>3D Printing</h3
 
  ![](../images/printed01.jpeg)
+
   ![](../images/printed02.jpeg)
                 
                   
