@@ -40,15 +40,15 @@ MAKING = power (using the tools & resources) + knowledge (spores because its rep
 
 Everything we have, we can distribute these things.
 
-**Systemic Design - diagram to make**
+//**Systemic Design - diagram to make**
 
-Distributed Design
+//Distributed Design
 
-Design Thinking
+//Design Thinking
 
-Systems Thinking
+//Systems Thinking
 
-Values of Distributed Design
+//Values of Distributed Design
 
 OPEN | COLLABORATE | REGENERATE | EXOSYSTEMIC
 
