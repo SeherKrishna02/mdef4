@@ -64,7 +64,7 @@ ACTIVITY 01
 
 ***Group Mushroom Model***
 
-![](../images/9215.jpeg)
+![](../images/9215.JPEG)
 
 ACTIVITY 02
 
@@ -94,7 +94,7 @@ Social & environmental impact in relation to the distributed design values - how
 
 ***Reflective Tree***
 
-![](../images/9222.jpeg)
+![](../images/9222.JPEG)
 
 
 DAY 02
