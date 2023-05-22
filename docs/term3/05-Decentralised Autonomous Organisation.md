@@ -113,7 +113,7 @@ Conspiracy around the founder of Bitcoin - Satoshi Nakamoto
 
 Distribute system vs Centralised System
 
-![web3chart](images/web3chart.png)
+![web3chart](../images/web3chart.png)
 
 Blockchain in theory is decentralised.
 
