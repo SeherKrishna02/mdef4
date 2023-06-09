@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# Initial Ideas
+# Project
 
 [Future Food Matters](https://futurefoodmatters.cargo.site)
 
