@@ -66,7 +66,7 @@ Material research, active research within the design field, with a situated comm
 
 *Before making new design solutions, we look for what is already working at the community level. We honour and uplift traditional, indigenous and local knowledge and practices.*
 
-[](https://static1.squarespace.com/static/5d5d34e927fded000105ccc4/t/62bcb0e6c96e2b07be800060/1656533248511/From+the+Desks+of-Principles+at+Work-062922.pdf)
+[Principles at Work](https://static1.squarespace.com/static/5d5d34e927fded000105ccc4/t/62bcb0e6c96e2b07be800060/1656533248511/From+the+Desks+of-Principles+at+Work-062922.pdf)
 
 Anushka Jajodia - Non-extractive research methods - Storytelling as a non-extractive research method.
 
