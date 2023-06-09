@@ -68,6 +68,7 @@ Material research, active research within the design field, with a situated comm
 
 [Principles at Work](https://static1.squarespace.com/static/5d5d34e927fded000105ccc4/t/62bcb0e6c96e2b07be800060/1656533248511/From+the+Desks+of-Principles+at+Work-062922.pdf)
 
+
 Anushka Jajodia - Non-extractive research methods - Storytelling as a non-extractive research method.
 
 **Who is writing?**
