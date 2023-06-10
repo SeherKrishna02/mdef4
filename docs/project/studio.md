@@ -7,7 +7,7 @@ hide:
 
 <h3>Introduction to Atlas of Weak Signal cards</h3>
 
-![](../images/DS1.jpeg)
+![](../images/DS1.jpg)
 
 <h3>Beginnning of creating my Design Space</h3>
 
