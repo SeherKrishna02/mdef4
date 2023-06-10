@@ -11,32 +11,32 @@ hide:
 
 <h3>Beginnning of creating my Design Space</h3>
 
-![](../images/DS2.jpeg)
+![](../images/DS2.jpg)
 
 <h3>Multiscalar Perspective</h3>
 
-![](../images/DS3.jpeg)
+![](../images/DS3.jpg)
 
 <h3>Updated Design Space</h3>
 
-![](../images/DS4.jpeg)
+![](../images/DS4.jpg)
 
 <h3>Intersecting Weak Signals for Collaborative Project</h3>
 
-![](../images/DS5.jpeg)
+![](../images/DS5.jpg)
 
 <h3>Project Planning</h3>
 
-![](../images/DS6.jpeg)
+![](../images/DS6.jpg)
 
 <h3>Updated Multiscalar Perspective</h3>
 
-![](../images/DS7.jpeg)
+![](../images/DS7.jpg)
 
 <h3>Updated Design Space</h3>
 
-![](../images/DS8.jpeg)
+![](../images/DS8.jpg)
 
 <h3>Journey through MDEF</h3>
 
-![](../images/DS9.jpeg)
+![](../images/DS9.jpg)
