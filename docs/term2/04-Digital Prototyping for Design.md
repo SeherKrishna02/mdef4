@@ -25,7 +25,7 @@ Schematic designs
 
 Arduino releases a lot of core which consists of code that makes it easy peasy for us to use it and control things with it.
 
-[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjYkcPciPT8AhViVeUKHWxUCnoQtwJ6BAhMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV4WtPv0yWek&usg=AOvVaw2jlEQQCJfUQF9PDQzRmKvk](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjYkcPciPT8AhViVeUKHWxUCnoQtwJ6BAhMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV4WtPv0yWek&usg=AOvVaw2jlEQQCJfUQF9PDQzRmKvk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V4WtPv0yWek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **The Arduino project** - freedom to use, understand, modify and share your tools. *Open-source information used and modified must be also shared as open-source.*
 
@@ -39,7 +39,7 @@ Software - offer us a simple interface to talk between the microcontroller and t
 
 Community - big community with basic and expert level of knowledge people to share ideas and questions.
 
-[https://www.youtube.com/watch?v=UoBUXOOdLXY](https://www.youtube.com/watch?v=UoBUXOOdLXY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UoBUXOOdLXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Things to keep in mind :**
 
@@ -353,19 +353,19 @@ SLS - structured light scanners
 
 Pattern + light to calculate deformities to scan the object.
 
-[https://www.youtube.com/watch?v=VaXrX0veR9Y](https://www.youtube.com/watch?v=VaXrX0veR9Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VaXrX0veR9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=s-lvK3uwkqw](https://www.youtube.com/watch?v=s-lvK3uwkqw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s-lvK3uwkqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=axdPIc6FqQU](https://www.youtube.com/watch?v=axdPIc6FqQU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/axdPIc6FqQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=yJhWasl8QYw](https://www.youtube.com/watch?v=yJhWasl8QYw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yJhWasl8QYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Etymology
 
 photogrammetry
 
-[https://www.youtube.com/watch?v=ZIW4XU6Wm8Q](https://www.youtube.com/watch?v=ZIW4XU6Wm8Q)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIW4XU6Wm8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![ai](../images/ai.png)
 
@@ -439,7 +439,7 @@ amplitude modulation - AM
 
 frequency modulation - FM
 
-[Listen to live Vilassar de Mar radio on Radio Garden](http://radio.garden/visit/vilassar-de-mar/0LpQRpJj)
+<embed src="http://radio.garden/visit/vilassar-de-mar/0LpQRpJj" style="width:100%; height: 50vw;">
 
 ### 01 March 2023
 
