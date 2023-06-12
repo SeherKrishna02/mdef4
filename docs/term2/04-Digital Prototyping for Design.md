@@ -439,7 +439,7 @@ amplitude modulation - AM
 
 frequency modulation - FM
 
-<embed src="http://radio.garden/visit/vilassar-de-mar/0LpQRpJj" style="width:100%; height: 50vw;">
+<a href="http://radio.garden/visit/vilassar-de-mar/0LpQRpJj">Radio Garden</a>
 
 ### 01 March 2023
 
