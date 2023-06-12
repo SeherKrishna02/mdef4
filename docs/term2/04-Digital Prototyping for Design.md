@@ -849,7 +849,7 @@ CNC Milling
 
 -2.5d cuts is how much you control in height. so engrave but not cut through the entire way.
 
-[https://www.google.com/search?q=KUNG+FU+movie+jaden+smith+jacket+scene&client=safari&rls=en&biw=1512&bih=865&tbm=vid&sxsrf=AJOqlzUykw9ONufHOzvXgHzAr1sw46GDvw:1677749664089&ei=oG0AZK32BPuYkdUP1oCumAo&ved=0ahUKEwitxv_F-Lz9AhV7TKQEHVaAC6MQ4dUDCAw&uact=5&oq=KUNG+FU+movie+jaden+smith+jacket+scene&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQghEKABOgQIIxAnOgYIABAWEB46BAghEBU6CAghEBYQHhAdOgcIIRCgARAKUO0BWNAkYJQmaARwAHgAgAHAAYgB6RSSAQQwLjE4mAEAoAEBwAEB&sclient=gws-wiz-video#fpstate=ive&vld=cid:4a906271,vid:8INjmc-WWSY](https://www.google.com/search?q=KUNG+FU+movie+jaden+smith+jacket+scene&client=safari&rls=en&biw=1512&bih=865&tbm=vid&sxsrf=AJOqlzUykw9ONufHOzvXgHzAr1sw46GDvw:1677749664089&ei=oG0AZK32BPuYkdUP1oCumAo&ved=0ahUKEwitxv_F-Lz9AhV7TKQEHVaAC6MQ4dUDCAw&uact=5&oq=KUNG+FU+movie+jaden+smith+jacket+scene&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBQghEKABOgQIIxAnOgYIABAWEB46BAghEBU6CAghEBYQHhAdOgcIIRCgARAKUO0BWNAkYJQmaARwAHgAgAHAAYgB6RSSAQQwLjE4mAEAoAEBwAEB&sclient=gws-wiz-video#fpstate=ive&vld=cid:4a906271,vid:8INjmc-WWSY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8INjmc-WWSY?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 AUTOMATION
 
