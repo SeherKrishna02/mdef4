@@ -136,3 +136,16 @@ Non-fungible tokens
 [The Casino-Chip Society](https://brettscott.substack.com/p/casino-chip-cashless-society?utm_source=substack&publication_id=69390&post_id=83312237&utm_medium=email&utm_content=share&triggerShare=true&isFreemail=true)
 
 [Altered States of Monetary Consciousness](https://alteredstatesof.money/)
+
+# Reflection
+
+I'm not sure if I would use the blockchain to store NFTs and if we really need them. If I were to ever use it, I would like to explore the creative aspect and store a series of Nature's Kaleidoscope on it. It is a series of images created by me, and I feel as the ever changing nature of our environment and plants around us can never be replicated exactly the same. Similar to the nature of visuals generated while using a traditional kaleidoscope. My understanding of what can be considered an NFT, by looking at artworks created as NFTs are that they are quite complex and cannot be replicated exactly the same by someone else and that is the reason why people would like to purchase them and own something truly unique and special. I was not able to attend the final presentation but learnt how to set up a Tezos wallet and explored the idea of creating NFTs.
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 177.7778%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlotOX_wk&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlotOX_wk&#x2F;view?utm_content=DAFlotOX_wk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Nature's Kaleidoscope</a>
