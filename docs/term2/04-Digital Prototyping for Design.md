@@ -878,8 +878,11 @@ add 0.4mm + thickness of material for the cut depth to be sure the material is c
  <h3>3D Printing</h3
 
  ![](../images/cup_box.jpeg)
+
  ![](../images/cup_mold.jpeg)
+
  ![](../images/3dprint.JPG)
+
  ![](../images/WHISTLE.jpg)
 
 ![](../images/whistle01.jpeg)
