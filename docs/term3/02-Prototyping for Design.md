@@ -72,11 +72,19 @@ G - for moving stuff, it means grab
 
 S - scaling the object
 
+# Reflection on Blender
+
 After getting the basics in the last blender session, we were introduced to python in blender. Python is a progammimg language that can also be used as a way to design in Blender. We tried some basic tools in blender using python such as array:
 
 ![monkey](../images/monkey.jpg)
 
-We then connected a Led strip light and connected it to blender where with the movement of the mouse as a sensor, the led lights blinked and moved in the same direction.
+We then connected a Led strip light and connected it to blender where with the movement of the mouse as a sensor, the led lights blinked and moved in the same direction. It was interesting to see how you can see the interfaces interact to explore electronics. I enjoyed trying the open source modelling softwares a lot. It really helps overcome the complexity of a software and was a very user-friendly experience personallY. I have previously tried using Adobe Dimension to create some images of dreamscapes.
+
+![monkey](../images/Dimension01.png)
+
+![monkey](../images/Dimension02.png)
+
+![monkey](../images/Dimension03.png)
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
