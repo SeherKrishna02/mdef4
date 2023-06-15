@@ -110,9 +110,18 @@ Functions learned on DAY 01
 
 *buzzer / piezo speakertone(), noTone() functions*
 
-# Reflection
+# Reflection 01
 
-Found it frustrating as I wanted to try out a particular tune but most of the examples online were for the Arduino Uno board, I guess it's because this board is an older board. The feather esp32 microcontroller has more capabilities. So then I decided to try and find a very basic code which I then tried to understand. The circuit was fairly simple to set up and for the code I had to define which pin I would be using on the microcontroller to control the buzzer. After that you just have to
+Found it frustrating as I wanted to try out a particular tune but most of the examples online were for the Arduino Uno board, I guess it's because this board is an older board. The feather esp32 microcontroller has more capabilities. So then I decided to try and find a very basic code which I then tried to understand. The circuit was fairly simple to set up and for the code I had to define which pin I would be using on the microcontroller to control the buzzer.
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5jMQ30c&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5jMQ30c&#x2F;watch?utm_content=DAFl5jMQ30c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Piezo Buzzer</a>
 
 # 3D Printing
 
@@ -183,7 +192,7 @@ MAP A texture
 
 **Parametric design** is a process based on algorithmic thinking that allows the expression of parameters and rules that together define, codify and clarify the relationship between design intent and design response.
 
-# Reflection
+# Reflection 02
 
 We were introduced to all basic concepts and then insights into different softwares for 2D modeling, 3D modeling and Parametric modeling.
 
@@ -271,10 +280,18 @@ Slicer Fusion - stacking, waffle, paper folding
 
 [Slicer for Fusion 360](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjAx4Xc3IX9AhUGHOwKHd50D5cQFnoECBwQAQ&url=https%3A%2F%2Fknowledge.autodesk.com%2Fsupport%2Ffusion-360%2Ftroubleshooting%2Fcaas%2Fdownloads%2Fcontent%2Fslicer-for-fusion-360.html&usg=AOvVaw1KMAnoIXbIJM6h0VKvtOj2)
 
-# Refelection
+# Refelection 03
 
 I decided to design a box for storing biomaterials and it has been said that every MDEF student makes a box at some point. I wanted to use acrylic so when you store the materials, you can see all the waste in it, it can look visually pleasing. I decided to engrave the letters futura on it, to signify the materials we will use more in the future.
 
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl59oIlYg&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl59oIlYg&#x2F;watch?utm_content=DAFl59oIlYg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">laser cut acrylic</a>
 
 ![laser](../images/laser1.JPG)
 
@@ -470,7 +487,7 @@ frequency modulation - FM
 
 # Inputs & Outputs
 
-# Reflection
+# Reflection 04
 
 We had an incredibly insightful session focused on electronics and sensors. We deepened our understanding of essential concepts like pull-up and pull-down resistors, as well as inputs and outputs in electronic circuits.
 
@@ -489,7 +506,7 @@ For today's assignment, we were tasked with utilizing a Light Dependent Resistor
 
 int LED_PIN = 14 vs. #define LED_PIN = 14
 
-#define is more convenient and efficient
+( define is more convenient and efficient )
 
 serial monitor message = blink
 
@@ -895,7 +912,7 @@ void loop() {
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8INjmc-WWSY?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Reflection
+# Reflection 05
 
 The assignment was to create a file for CNC and get it developed, and for this assignment, I did not require it for my master project or for the microchallenge for Andaaza. .I did not want to utilise this machinery just for the sake of the assignment, so I did not use this individually but learnt how to create a file for the CNC machine with Caglar as he was building a side table with a pattern as a engraving and using cuts all the way to cut out the desired shape of the table.
 
@@ -933,7 +950,7 @@ add 0.4mm + thickness of material for the cut depth to be sure the material is c
 
 ![](../images/3dprint_whistle.jpg)
 
-# Reflection on 3D Printing
+# Reflection on 3D Printing 06
 
 I tried to 3d print a whistle but did not understand the file properly so my first print was a disaster. I had printed a whistle but without the cavity inside so it would not work. I corrected the file and removed all supports this time and it works really well. I would have liked to use the compostable material to print it or even the transparent filament but since the black colored was already connected to the Ender 3d printer, i went ahead with it.
 
@@ -941,7 +958,9 @@ I tried to 3d print a whistle but did not understand the file properly so my fir
 <p id="a5b93410-07d2-4e79-8c05-1349ff6c2f12" class=""><mark class="highlight-blue_background">Reflection on Microchallenge</mark></p><p id="d491c89e-adbd-4466-8a55-84ca084a50f6" class=""><mark class="highlight-blue_background"><p id="2e7c7a9b-dfcf-4025-b5e1-9185a7c82eff" class="">I had already planned to continue to work on the same artefact from challenge 01. We worked together on improving the pen holder with a new gasket/washer so it would grip the tool better. We wanted to prevent it from moving upwards and downwards while rotating but wanted it to make sideways to carve more smoothly and precisely. Making the moulds for the cups was really fun. It was the first time I had made something like this. We had a few challenges with removing our plaster from the 3d printed mould has we had some sharp corners. It would have been better to make a 3-part mould instead of what we made. In the end, we ended up destroying the 3d printed mould which was a shame but it had to be done. Overall, we made a lot of progress during this week. We improved the coding so the spinning table movement could be customised and controlled with a knob, we could also alternate the direction of it. We still need to work on preventing the pause of the carving tool while the table spins..We will do this during the next round. Our design of the artefact has developed considerably, it is now a perfect conbination of a phonograph and spinning table with a carving tool! </p><p id="77c45388-4d9c-4c29-bbbe-14599caef51d" class="">
 
 
-# Reflection Microchallenge 02
+# Reflection 07
+
+(Microchallenge 02)
 
 We used the FabLab a lot during this challenge. We used the laser cutter to cut out the gramophone for the artefact, we improved the carving tool holder for better precision. We also printed another mould for the cups but had to damage it to get the plaster mould out. We made a lot of improvements to the artefact and spent time to fixing the controllers to move separate while using audio as the controller. We made more cups using the slip-cast technique and painted them to achieve a look so you can see the pattern that gets carved on the turn table.
 
