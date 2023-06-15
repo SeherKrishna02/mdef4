@@ -41,6 +41,7 @@ Community - big community with basic and expert level of knowledge people to sha
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UoBUXOOdLXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 **Things to keep in mind :**
 
 Power -
@@ -108,6 +109,8 @@ serial.print- as much information as you can send to yourself of your device, yo
 Functions learned on DAY 01
 
 *buzzer / piezo speakertone(), noTone() functions*
+
+# Reflection
 
 Found it frustrating as I wanted to try out a particular tune but most of the examples online were for the Arduino Uno board, I guess it's because this board is an older board. The feather esp32 microcontroller has more capabilities. So then I decided to try and find a very basic code which I then tried to understand. The circuit was fairly simple to set up and for the code I had to define which pin I would be using on the microcontroller to control the buzzer. After that you just have to
 
@@ -179,6 +182,18 @@ MAP A texture
 ![bake](../images/bake.png)
 
 **Parametric design** is a process based on algorithmic thinking that allows the expression of parameters and rules that together define, codify and clarify the relationship between design intent and design response.
+
+# Reflection
+
+We were introduced to all basic concepts and then insights into different softwares for 2D modeling, 3D modeling and Parametric modeling.
+
+I found a tutorial on Youtube for parametric design, I tried following a video for the Metropol Parasol. After a while I noticed I had made a mistake half way in one of them.
+
+![parasol](../images/parasol.png)
+
+![parasol](../images/parasol01.png)
+
+![parasol](../images/parasol02.png)
 
 Coding modelling ^
 
@@ -255,6 +270,18 @@ kerf - the width of the material you are losing while cutting
 Slicer Fusion - stacking, waffle, paper folding
 
 [Slicer for Fusion 360](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjAx4Xc3IX9AhUGHOwKHd50D5cQFnoECBwQAQ&url=https%3A%2F%2Fknowledge.autodesk.com%2Fsupport%2Ffusion-360%2Ftroubleshooting%2Fcaas%2Fdownloads%2Fcontent%2Fslicer-for-fusion-360.html&usg=AOvVaw1KMAnoIXbIJM6h0VKvtOj2)
+
+# Refelection
+
+I decided to design a box for storing biomaterials and it has been said that every MDEF student makes a box at some point. I wanted to use acrylic so when you store the materials, you can see all the waste in it, it can look visually pleasing. I decided to engrave the letters futura on it, to signify the materials we will use more in the future.
+
+
+![laser](../images/laser1.JPG)
+
+![laser](../images/futura01.jpeg)
+
+![laser](../images/futura02.jpeg)
+
 
 **vinyl cutter**
 
@@ -440,6 +467,21 @@ amplitude modulation - AM
 frequency modulation - FM
 
 <a href="http://radio.garden/visit/vilassar-de-mar/0LpQRpJj">Radio Garden</a>
+
+#Reflection
+
+We had an incredibly insightful session focused on electronics and sensors. We deepened our understanding of essential concepts like pull-up and pull-down resistors, as well as inputs and outputs in electronic circuits.
+
+For today's assignment, we were tasked with utilizing a Light Dependent Resistor (LDR) and Actuating Light to test Morse code. This practical exercise allowed us to apply our knowledge and explore the transmission of information using light signals.
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5qstj5k&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5qstj5k&#x2F;watch?utm_content=DAFl5qstj5k&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">LDR Sensor</a>
 
 ### 01 March 2023
 
@@ -900,5 +942,7 @@ I tried to 3d print a whistle but did not understand the file properly so my fir
 # Reflection Microchallenge 02
 
 We used the FabLab a lot during this challenge. We used the laser cutter to cut out the gramophone for the artefact, we improved the carving tool holder for better precision. We also printed another mould for the cups but had to damage it to get the plaster mould out. We made a lot of improvements to the artefact and spent time to fixing the controllers to move separate while using audio as the controller. We made more cups using the slip-cast technique and painted them to achieve a look so you can see the pattern that gets carved on the turn table.
+
+![](../images/tool_holder.jpeg)
 
 <a href="https://github.com/SeherKrishna02/Andaaza.git">Andaaza Github Page</a>
