@@ -78,13 +78,7 @@ After getting the basics in the last blender session, we were introduced to pyth
 
 ![monkey](../images/monkey.jpg)
 
-We then connected a Led strip light and connected it to blender where with the movement of the mouse as a sensor, the led lights blinked and moved in the same direction. It was interesting to see how you can see the interfaces interact to explore electronics. I enjoyed trying the open source modelling softwares a lot. It really helps overcome the complexity of a software and was a very user-friendly experience personallY. I have previously tried using Adobe Dimension to create some images of dreamscapes.
-
-![monkey](../images/Dimension01.png)
-
-![monkey](../images/Dimension02.png)
-
-![monkey](../images/Dimension03.png)
+We then connected a Led strip light and connected it to blender where with the movement of the mouse as a sensor, the led lights blinked and moved in the same direction. It was interesting to see how you can see the interfaces interact to explore electronics.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -94,6 +88,14 @@ We then connected a Led strip light and connected it to blender where with the m
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5B3tQ3M&#x2F;watch?utm_content=DAFl5B3tQ3M&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">LED lights + Blender</a>
+
+ I enjoyed trying the open source modelling softwares a lot. It really helps overcome the complexity of a software and was a very user-friendly experience personallY. I have previously tried using Adobe Dimension to create some images of dreamscapes.
+
+![monkey](../images/Dimension01.png)
+
+![monkey](../images/Dimension02.png)
+
+![monkey](../images/Dimension03.png)
 
 
 # Blender Exploration
