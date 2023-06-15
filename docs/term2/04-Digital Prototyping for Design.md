@@ -972,6 +972,9 @@ I tried to 3d print a whistle but did not understand the file properly so my fir
 
 ![](../images/3dprint_whistle.jpg)
 
+# Microchallenge
+
+<a href="https://github.com/SeherKrishna02/Andaaza.git">Andaaza Github Page</a>
 
 <p id="a5b93410-07d2-4e79-8c05-1349ff6c2f12" class=""><mark class="highlight-blue_background">Reflection 08</mark></p><p id="d491c89e-adbd-4466-8a55-84ca084a50f6" class=""><mark class="highlight-blue_background"><p id="2e7c7a9b-dfcf-4025-b5e1-9185a7c82eff" class="">I had already planned to continue to work on the same artefact from challenge 01. We worked together on improving the pen holder with a new gasket/washer so it would grip the tool better. We wanted to prevent it from moving upwards and downwards while rotating but wanted it to make sideways to carve more smoothly and precisely. Making the moulds for the cups was really fun. It was the first time I had made something like this. We had a few challenges with removing our plaster from the 3d printed mould has we had some sharp corners. It would have been better to make a 3-part mould instead of what we made. In the end, we ended up destroying the 3d printed mould which was a shame but it had to be done. Overall, we made a lot of progress during this week. We improved the coding so the spinning table movement could be customised and controlled with a knob, we could also alternate the direction of it. We still need to work on preventing the pause of the carving tool while the table spins..We will do this during the next round. Our design of the artefact has developed considerably, it is now a perfect combination of a phonograph and spinning table with a carving tool!</p>
 
@@ -985,5 +988,3 @@ I tried to 3d print a whistle but did not understand the file properly so my fir
 ![](../images/cup_box.jpeg)
 
 ![](../images/cup_mold.jpeg)
-
-<a href="https://github.com/SeherKrishna02/Andaaza.git">Andaaza Github Page</a>
