@@ -46,7 +46,7 @@ end effector - tool for the robotic arm
 Every time you change the tool, you need to calibrate because the TCP changes.
 
 
-# Reflection on Robots
+# Reflection 09
 
 In this session, we began our exploration of modern robot arms. We learned about the different types of robot arms currently in use, including their motor systems and the number of axes they possess. We also discussed the various end effectors that can be attached to these arms, expanding their functionality. We looked at practical techniques and applications commonly associated with robotic arms, such as 3D printing, milling, cutting, and automation. These processes play a significant role in harnessing the capabilities of robotic arms.
 
@@ -122,7 +122,7 @@ iterator
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlXH2a9Vk&#x2F;watch?utm_content=DAFlXH2a9Vk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a>
 
-# Reflection
+# Reflection 10
 
 This session was a very interactive hands-on session where we were introduced to Hydra and how to create illustrations using live coding by playing around with different parameters and obtain live illustrations. I plan to try to combine music with this live coding. I think this was the most engaging session for this term.
 
@@ -144,7 +144,7 @@ G - for moving stuff, it means grab
 
 S - scaling the object
 
-# Reflection on Blender
+# Reflection 11
 
 After getting the basics in the last blender session, we were introduced to python in blender. Python is a progammimg language that can also be used as a way to design in Blender. We tried some basic tools in blender using python such as array:
 
@@ -209,7 +209,7 @@ sensor device > processing system to send the g-code > to the machine to write t
 
 Nomadic Box - audio NFT platforms?
 
-# Reflection of Micro challenge
+# Reflection 12
 
 This round was challenging as it was a completely new language we were learning, p5.js
 We began by recording our audio clips reading out the messages we would want to share with future generations. I reached out to an old college friend who has worked on p5.js to understand it a bit better. We tried understanding the logic behind the code which we found for a Pitch Visualiser shared on Github. As we understood the language a bit, we thought about what visual we want to create. Since our project idea was about generation and knowledge sharing, we thought of a tree branching out. We then came across code to generate a recursive tree visual. We managed to get a nice looking image but then got excited by the visual and then explored it further to generate multiple recursive trees. It finally resembled a mix between a kaleidoscope and a gramophone speaker which was our earlier rendition of the Andaaza artefact. I had a lot of fun taking this project this far since term 01 until now.
