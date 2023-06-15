@@ -45,6 +45,15 @@ end effector - tool for the robotic arm
 
 Every time you change the tool, you need to calibrate because the TCP changes.
 
+
+# Reflection on Robots
+
+In this session, we began our exploration of modern robot arms. We learned about the different types of robot arms currently in use, including their motor systems and the number of axes they possess. We also discussed the various end effectors that can be attached to these arms, expanding their functionality. We looked at practical techniques and applications commonly associated with robotic arms, such as 3D printing, milling, cutting, and automation. These processes play a significant role in harnessing the capabilities of robotic arms.
+
+We were then introduced to one of the IAAC robotic arms, this class was dedicated to understanding how to prepare robotic arm files using Grasshopper. Through this software, we discovered how to simulate movements and manipulate parameters using scripts. This allowed us to gain a better understanding of the control and modification possibilities within robotic arm design. The session ended with a hands-on activity. we utilized the robotic arm to print the letters "MDEF." This helped us to showcase what we had learned and further reinforced our understanding of working with robotic arms.
+
+![roboticarm](../images/robot.jpg)
+
 ### (20 Apr) **Blender**
 
 The tools that we use, shape us and the things we do.
@@ -62,6 +71,22 @@ Share-alike - if you modify the free software, and choose to distribute it - you
 G - for moving stuff, it means grab
 
 S - scaling the object
+
+After getting the basics in the last blender session, we were introduced to python in blender. Python is a progammimg language that can also be used as a way to design in Blender. We tried some basic tools in blender using python such as array:
+
+![monkey](../images/monkey.jpg)
+
+We then connected a Led strip light and connected it to blender where with the movement of the mouse as a sensor, the led lights blinked and moved in the same direction.
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5B3tQ3M&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5B3tQ3M&#x2F;watch?utm_content=DAFl5B3tQ3M&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">LED lights + Blender</a>
+
 
 # Blender Exploration
 
