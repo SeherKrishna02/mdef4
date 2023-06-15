@@ -978,7 +978,7 @@ I tried to 3d print a whistle but did not understand the file properly so my fir
 
 ![](../images/tool_holder.jpeg)
 
-![](../images/3dprint.JPG)
+![](../images/3dprint.jpeg)
 
 ![](../images/3dprint2.png)
 
