@@ -114,7 +114,7 @@ Functions learned on DAY 01
 
 Found it frustrating as I wanted to try out a particular tune but most of the examples online were for the Arduino Uno board, I guess it's because this board is an older board. The feather esp32 microcontroller has more capabilities. So then I decided to try and find a very basic code which I then tried to understand. The circuit was fairly simple to set up and for the code I had to define which pin I would be using on the microcontroller to control the buzzer. After that you just have to
 
-**Feb 02, 2023**
+# 3D Printing
 
 CAM
 
@@ -468,7 +468,9 @@ frequency modulation - FM
 
 <a href="http://radio.garden/visit/vilassar-de-mar/0LpQRpJj">Radio Garden</a>
 
-#Reflection
+# Inputs & Outputs
+
+# Reflection
 
 We had an incredibly insightful session focused on electronics and sensors. We deepened our understanding of essential concepts like pull-up and pull-down resistors, as well as inputs and outputs in electronic circuits.
 
@@ -483,7 +485,7 @@ For today's assignment, we were tasked with utilizing a Light Dependent Resistor
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFl5qstj5k&#x2F;watch?utm_content=DAFl5qstj5k&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">LDR Sensor</a>
 
-### 01 March 2023
+
 
 int LED_PIN = 14 vs. #define LED_PIN = 14
 
@@ -875,7 +877,7 @@ void loop() {
 
 ### 02 March 23
 
-CNC Milling
+# CNC Milling
 
 -subtractive technique, removing material from a solid block
 
