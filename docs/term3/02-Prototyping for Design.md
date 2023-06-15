@@ -137,6 +137,11 @@ sensor device > processing system to send the g-code > to the machine to write t
 
 Nomadic Box - audio NFT platforms?
 
+# Reflection of Micro challenge
+
+This round was challenging as it was a completely new language we were learning, p5.js
+We began by recording our audio clips reading out the messages we would want to share with future generations. I reached out to an old college friend who has worked on p5.js to understand it a bit better. We tried understanding the logic behind the code which we found for a Pitch Visualiser shared on Github. As we understood the language a bit, we thought about what visual we want to create. Since our project idea was about generation and knowledge sharing, we thought of a tree branching out. We then came across code to generate a recursive tree visual. We managed to get a nice looking image but then got excited by the visual and then explored it further to generate multiple recursive trees. It finally resembled a mix between a kaleidoscope and a gramophone speaker which was our earlier rendition of the Andaaza artefact. I had a lot of fun taking this project this far since term 01 until now.
+
 **ANDAAZA** - Audio Recording - archiving recipes - encrypting messages - NFTs
 
 [](https://therewasaguy.github.io/p5-music-viz/demos/01d_beat_detect_amplitude/)
